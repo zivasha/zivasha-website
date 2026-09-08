@@ -1,0 +1,17 @@
+# Cache policy for the static deploy (Netlify reads this file from out/).
+# Mirrors the old next.config headers() — unsupported in export mode.
+
+# Hashed build assets never change at the same URL — cache for a year.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Originals are content-addressed by ?v=md5 (lib/images.ts) — immutable is safe.
+/products/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# OG variants carry the same ?v= hashes (lib/seo.ts).
+/og/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800

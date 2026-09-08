@@ -1,0 +1,9 @@
+# Static-export deploy: publish the `out/` directory produced by `next build`
+# (next.config `output: 'export'`). This file overrides the dashboard settings.
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# Allow the on-the-fly Image CDN (/.netlify/images) to read our own assets.
+[images]
+  remote_images = []

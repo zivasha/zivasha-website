@@ -1,6 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { site } from '@/lib/site';
 
+export const dynamic = 'force-static'; // required by output: 'export'
+
 /**
  * Served at /sitemap.xml. URLs keep the trailing slash to match canonicals
  * (next.config `trailingSlash: true`) — mixed forms would split index signals.
