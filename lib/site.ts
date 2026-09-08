@@ -4,10 +4,9 @@ export const site = {
   domain: 'https://zivasha.in',
   tagline: 'Tradition · Nourished · Gifted',
   motto: 'Rooted in Tradition. Made for Today.',
-  // ⚠️ REPLACE BEFORE LAUNCH — carried over from the draft brochure; verify this
-  // number is actually yours (it may be a placeholder) before the site goes live.
-  whatsapp: '919800139991',
-  whatsappDisplay: '+91 98001 39991',
+  // Confirmed by Sumit 2026-09-08 (replaced the draft-brochure placeholder).
+  whatsapp: '919773695862',
+  whatsappDisplay: '+91 97736 95862',
   email: 'hello@zivasha.in',
   serviceArea: 'Delhi NCR — Delhi, Gurgaon, Noida, Ghaziabad, Faridabad',
   instagram: '', // set to https://instagram.com/zivasha.in once the handle is claimed — the footer link renders automatically

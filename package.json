@@ -6,7 +6,8 @@
     "dev": "next dev",
     "prebuild": "node scripts/generate-media.mjs",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "warm": "node scripts/warm-cache.mjs"
   },
   "dependencies": {
     "next": "^15.5.0",

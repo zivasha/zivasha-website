@@ -120,6 +120,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <WhatsAppFab />
+        {/* Scroll-reveal engine as an inline script so above-fold reveals fire at
+            first paint instead of waiting ~2-4s for React hydration on slow
+            connections (this was the main Speed Index cost). Runs when the HTML
+            finishes parsing; <Reveals /> re-invokes it on client-side navigation. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.__reveals=function(){var els=document.querySelectorAll('[data-reveal]:not(.revealed)');if(!els.length)return;if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('revealed')});return}var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('revealed');io.unobserve(e.target)}})},{threshold:0.15,rootMargin:'0px 0px -40px 0px'});els.forEach(function(el){io.observe(el)})};window.__reveals();`,
+          }}
+        />
       </body>
     </html>
   );
