@@ -9,7 +9,7 @@ export const site = {
   whatsappDisplay: '+91 97736 95862',
   email: 'hello@zivasha.in',
   serviceArea: 'Delhi NCR — Delhi, Gurgaon, Noida, Ghaziabad, Faridabad',
-  instagram: '', // set to https://instagram.com/zivasha.in once the handle is claimed — the footer link renders automatically
+  instagram: 'https://instagram.com/zivasha.in', // handle claimed 2026-09-09
   linkedin: '', // add when the company page exists
   // Compliance: leave empty until each is in hand — the site renders the
   // corresponding claims only when set. Never claim a licence, report or
