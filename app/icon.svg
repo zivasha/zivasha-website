@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#16291f"/>
+  <text x="29" y="46" text-anchor="middle" font-family="Cinzel, Georgia, 'Times New Roman', serif" font-weight="600" font-size="38" fill="#c9a24b">Z</text>
+  <path d="M33 34 C38 27 40 22 41 15" fill="none" stroke="#c9a24b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M40 17 C36 12 36 7 41 4 C46 7 46 12 42 16 Z" fill="#4f7a5c"/>
+  <path d="M36 26 C42 21 49 20 55 23 C52 30 44 32 37 29 Z" fill="#6f9c7d"/>
+</svg>
