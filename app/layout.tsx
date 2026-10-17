@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Cinzel, Cormorant_Garamond, Source_Sans_3 } from 'next/font/google';
+import { Cormorant_Garamond, Manrope } from 'next/font/google';
 import Analytics from '@/components/Analytics';
 import Reveals from '@/components/Reveals';
 import Header from '@/components/Header';
@@ -9,11 +9,11 @@ import WhatsAppFab from '@/components/WhatsAppFab';
 import { site } from '@/lib/site';
 import { hashedPath } from '@/lib/images';
 import './globals.css';
+import './ivory-boutique.css';
 
 // Variable fonts: one file per family/style covers every weight the CSS uses
 // (serif italics power the editorial display accents on the storytelling pages)
 // — 4 preloaded font files instead of 9 static ones.
-const display = Cinzel({ subsets: ['latin'], weight: 'variable', display: 'swap', variable: '--font-display' });
 const serif = Cormorant_Garamond({
   subsets: ['latin'],
   weight: 'variable',
@@ -21,10 +21,10 @@ const serif = Cormorant_Garamond({
   display: 'swap',
   variable: '--font-serif',
 });
-const body = Source_Sans_3({ subsets: ['latin'], weight: 'variable', display: 'swap', variable: '--font-body' });
+const body = Manrope({ subsets: ['latin'], weight: 'variable', display: 'swap', variable: '--font-body' });
 
 export const viewport: Viewport = {
-  themeColor: '#f7f1e3', // --cream, single light theme
+  themeColor: '#f8f3e9', // --cream, single light theme
 };
 
 export const metadata: Metadata = {
@@ -101,7 +101,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <link rel="dns-prefetch" href="https://connect.facebook.net" />
         )}
       </head>
-      <body className={`${display.variable} ${serif.variable} ${body.variable}`}>
+      <body className={`${serif.variable} ${body.variable}`}>
         {/* JS marker gates the scroll-reveal hiding CSS — without JS everything stays visible */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
         <script
@@ -111,7 +111,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Analytics />
         <Reveals />
         <CartProvider><Header />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <Footer />
         <WhatsAppFab /></CartProvider>
         {/* Scroll-reveal engine as an inline script so above-fold reveals fire at
