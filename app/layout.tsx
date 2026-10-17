@@ -3,6 +3,7 @@ import { Cinzel, Cormorant_Garamond, Source_Sans_3 } from 'next/font/google';
 import Analytics from '@/components/Analytics';
 import Reveals from '@/components/Reveals';
 import Header from '@/components/Header';
+import {CartProvider} from '@/components/CartProvider';
 import Footer from '@/components/Footer';
 import WhatsAppFab from '@/components/WhatsAppFab';
 import { site } from '@/lib/site';
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     template: '%s | Zivasha',
   },
   description:
-    'Thoughtful dry-fruit gift hampers, Gond Laddu, Khapli Laddu and Seven Seeds Nutri Bar. Explore the collection, confirm your order on WhatsApp and pay through Razorpay.',
+    'Thoughtful dry-fruit gift hampers, Gond Laddu, Khapli Laddu and Seven Seeds Nutri Bar. Add products to your cart, submit an order request and pay your confirmed total through Razorpay.',
   // './' resolves per-route against metadataBase → every page gets its own canonical + og:url
   alternates: { canonical: './' },
   openGraph: {
@@ -109,10 +110,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <Analytics />
         <Reveals />
-        <Header />
+        <CartProvider><Header />
         <main>{children}</main>
         <Footer />
-        <WhatsAppFab />
+        <WhatsAppFab /></CartProvider>
         {/* Scroll-reveal engine as an inline script so above-fold reveals fire at
             first paint instead of waiting ~2-4s for React hydration on slow
             connections (this was the main Speed Index cost). Runs when the HTML
