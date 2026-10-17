@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "where-cashews-grow-in-india",
+    "title": "Where do cashews grow in India?",
+    "description": "Discover India's cashew-growing regions, why warm coastal climates suit kaju, and how soil, rainfall and local varieties shape the crop.",
+    "category": "Origins & growing regions",
+    "publishedAt": "2026-10-17T23:15:00+05:30",
+    "updatedAt": "2026-10-17T23:15:00+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "cashew growing regions in India",
+      "kaju",
+      "Indian dry fruits",
+      "cashew cultivation",
+      "dry-fruit gift hampers"
+    ],
+    "image": "/products/four-jar-festive-gift.jpg",
+    "imageAlt": "ZIVASHA dry-fruit gift presentation with four glass jars",
+    "imageCaption": "ZIVASHA gift presentation. Background and branding edited; this image does not identify the origin of a particular batch.",
+    "intro": "A cashew in a festive gift box has an agricultural story behind it. Known as kaju in many Indian households, cashew is a tropical crop whose growing regions reflect a useful combination of warmth, seasonal rain and freely draining soil.",
+    "takeaway": "Warmth, good drainage and a distinct dry season help explain India's coastal cashew belt.",
+    "sections": [
+      {
+        "heading": "India's coastal cashew belt",
+        "paragraphs": [
+          "On the west coast, cashews are cultivated in Maharashtra, Goa, Karnataka and Kerala. The eastern growing belt includes Andhra Pradesh, Odisha, Tamil Nadu and West Bengal. ICAR also describes cultivation in parts of the North East, so the crop's Indian story extends beyond the familiar coastal states."
+        ],
+        "sourceIds": [
+          "icar"
+        ]
+      },
+      {
+        "heading": "Why do these regions suit kaju?",
+        "paragraphs": [
+          "Cashew trees favour tropical warmth; young plants are sensitive to frost. Cultivation guidance hosted by Tamil Nadu Agricultural University identifies deep, well-drained sandy loams as particularly suitable. Lateritic soils and slightly acidic coastal sands can also support the crop, while waterlogging is unsuitable.",
+          "Rain is only part of the story. A well-defined dry season helps flowering and fruiting. Excess rain and humidity during flowering can encourage disease and flower or fruit drop. These needs help explain the coastal connection, although suitability still depends on the orchard's soil, drainage and local weather."
+        ],
+        "sourceIds": [
+          "tnau"
+        ]
+      },
+      {
+        "heading": "One crop, many local varieties",
+        "paragraphs": [
+          "Regional names offer another clue to India's cashew diversity: TNAU lists Vengurla varieties for Maharashtra, Ullal varieties for Karnataka and VRI varieties for Tamil Nadu. A variety name describes planting material; it should not be treated as proof of where a retail pack was grown."
+        ],
+        "sourceIds": [
+          "varieties"
+        ]
+      },
+      {
+        "heading": "What to ask when choosing a dry-fruit gift",
+        "paragraphs": [
+          "Ask about the contents, net weight and batch origin if regional sourcing matters to you. This article describes general growing regions, not a claim that every ZIVASHA cashew comes from one particular state. For the contents and available pack options in our dry-fruit gift hampers, explore the collection or speak to our team."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "icar",
+        "title": "ICAR · Indian Farming, August 2025, cashew cultivation (pp. 45–49)",
+        "url": "https://www.icar.gov.in/sites/default/files/2025-12/August_2025%20Indian%20Farming.pdf"
+      },
+      {
+        "id": "tnau",
+        "title": "TNAU Agritech · Technical requirements of cashew cultivation",
+        "url": "https://www.agritech.tnau.ac.in/banking/nabard_pdf/Plantation%20and%20Horticulture/2.%20Cashewnut_Cultivation.pdf"
+      },
+      {
+        "id": "varieties",
+        "title": "TNAU Agritech · Cashewnut varieties and cultivation",
+        "url": "https://www.agritech.tnau.ac.in/horticulture/horti_plantation%20crops_cashewnut.html"
+      }
+    ],
+    "relatedPath": "/shop/#hampers",
+    "relatedLabel": "Explore dry-fruit gifts"
+  }
+]
