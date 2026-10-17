@@ -869,3 +869,40 @@ main > .chapter:last-child { border-bottom: 0; padding-bottom: 58px; }
   font-size: 0.82rem;
   color: var(--muted);
 }
+
+/* Approved catalogue palette and product presentation, October 2026. */
+:root { --green:#145640; --green-2:#103f32; --burgundy:#681f36; --gold:#a87e2f; --gold-2:#dfbd73; --cream:#faf3e7; --paper:#fffbf5; }
+.cine-panel,.chapter.dark,.story { background:var(--burgundy); }
+.approved-lockup {display:inline-flex;align-items:center;gap:12px;line-height:1.15;}
+.approved-lockup b {font-family:var(--font-display),serif;font-size:1.42rem;letter-spacing:.06em;}
+.approved-lockup small {display:block;font-size:.52rem;letter-spacing:.12em;margin-top:7px;}
+.approved-lockup.dark {color:#efd394;}
+.approved-lockup.light {color:var(--green);}
+.approved-lockup img {flex-shrink:0;object-fit:contain;}
+.cine-media .cine-img {object-fit:contain;background:#eadbc4;}
+.card-photo {aspect-ratio:3/2!important;height:auto!important;background:#efe1ce;}
+.card-photo img {object-fit:contain!important;}
+.card {display:flex;flex-direction:column;}
+.card-body {flex:1;}
+.catalogue-weight {font-weight:700;color:var(--burgundy);font-size:.96rem;}
+.image-note {font-size:.74rem;line-height:1.5;color:var(--muted);margin:14px 0 0;}
+.allergen-note {font-size:.85rem;font-weight:600;color:var(--burgundy);}
+.format-art {aspect-ratio:3/2;background:var(--burgundy);color:#f6e4ba;padding:32px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;text-align:center;}
+.format-art span {font-family:var(--font-display),serif;letter-spacing:.17em;font-size:.8rem;}
+.format-art strong {font-family:var(--font-serif),serif;font-size:2rem;line-height:1.1;}
+.format-art small {font-size:.7rem;}
+.season-note {padding:22px 26px;margin:28px 0;background:#f0e3cd;border-left:4px solid var(--burgundy);}
+.season-note strong {color:var(--burgundy);}
+.season-note p {margin:8px 0 0;font-size:.93rem;}
+.order-card,.payment-panel {border:1px solid var(--line);padding:32px;background:var(--paper);}
+.order-steps {padding-left:24px;}
+.order-steps li {padding:0 0 24px 8px;}
+.order-steps strong,.order-steps span {display:block;}
+.order-steps strong {font-size:1.2rem;color:var(--burgundy);}
+.order-steps span {margin-top:8px;}
+.payment-primary {margin:10px 0;}
+.footer {background:var(--green-2);}
+.page-hero h1 {color:var(--burgundy);}
+.cards {align-items:stretch;}
+@media(max-width:1180px){.nav{gap:12px}.nav a{font-size:.8rem}.approved-lockup b{font-size:1.2rem}}
+@media(max-width:520px){.announce{font-size:.74rem;letter-spacing:0}.approved-lockup{gap:8px}.header-in{padding:12px 16px}.page-hero{padding-left:20px;padding-right:20px}.order-card,.payment-panel{padding:24px}.season-note{padding:18px}.cine-media{min-height:280px!important}.cine-media .cine-img{object-fit:contain}.approved-lockup b{font-size:1.15rem}}

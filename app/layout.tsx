@@ -29,11 +29,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
-    default: 'Zivasha — Premium Dry Fruits, Gift Hampers, Gond Laddus & Seed Bars | Delhi NCR',
+    default: 'ZIVASHA — Dry-fruit Gifts, Gond & Khapli Laddu, Nutri Bars',
     template: '%s | Zivasha',
   },
   description:
-    'Premium dry fruit gift hampers, Signature Gond Laddus and Seven Seeds Nutribars. Corporate Diwali gifting with logo customisation across Delhi NCR. Order on WhatsApp.',
+    'Thoughtful dry-fruit gift hampers, Gond Laddu, Khapli Laddu and Seven Seeds Nutri Bar. Explore the collection, confirm your order on WhatsApp and pay through Razorpay.',
   // './' resolves per-route against metadataBase → every page gets its own canonical + og:url
   alternates: { canonical: './' },
   openGraph: {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     // falls back to the original before the first prebuild run.
     images: [
       {
-        url: hashedPath('/og/og-brand.jpg') ?? '/images/og-brand.jpg',
+        url: hashedPath('/og/four-jar-festive-gift.jpg') ?? '/products/four-jar-festive-gift.jpg',
         width: 1200,
         height: 630,
       },
@@ -68,23 +68,16 @@ const sameAs = [site.instagram, site.linkedin].filter(Boolean);
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
+  '@type': 'Organization',
   '@id': `${site.domain}/#business`,
   name: 'Zivasha',
   slogan: site.motto,
   url: site.domain,
-  logo: `${site.domain}/icon.svg`,
-  image: `${site.domain}/images/og-brand.jpg`,
+  logo: `${site.domain}/images/zivasha-logo.png`,
+  image: `${site.domain}/products/four-jar-festive-gift.jpg`,
   email: site.email,
   telephone: `+${site.whatsapp}`,
-  priceRange: '₹70 – ₹2,899',
   areaServed: ['Delhi', 'Gurgaon', 'Noida', 'Ghaziabad', 'Faridabad'],
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Delhi',
-    addressRegion: 'DL',
-    addressCountry: 'IN',
-  },
   ...(sameAs.length ? { sameAs } : {}),
   description:
     'Premium dry fruits, gift hampers, gond laddus and seed snack bars. Corporate and festive gifting, Delhi NCR.',
