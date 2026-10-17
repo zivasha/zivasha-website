@@ -37,7 +37,7 @@ export const products: Product[] = [
     "image": "turquoise-gift-tray",
     "name": "The Turquoise Gift Tray",
     "desc": "A turquoise presentation box with four gold-lined compartments for cashews, almonds, pistachios and raisins.",
-    "weight": "Approx. 700–750 g total",
+    "weight": "700 g total",
     "kind": "hamper"
   },
   {
@@ -45,7 +45,7 @@ export const products: Product[] = [
     "image": "slim-festive-box",
     "name": "The Slim Festive Box",
     "desc": "A slim pink box with four gold-lined sections. Almonds, cashews, raisins, plus dates or pistachios.",
-    "weight": "Approx. 250–300 g total",
+    "weight": "300 g total",
     "kind": "hamper"
   },
   {

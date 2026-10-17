@@ -4,6 +4,10 @@
   command = "npm run build"
   publish = "out"
 
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
 # Allow the on-the-fly Image CDN (/.netlify/images) to read our own assets.
 [images]
   remote_images = []
