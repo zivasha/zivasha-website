@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import posts from '@/lib/blog-posts.json';
 import { site } from '@/lib/site';
 
 export const dynamic = 'force-static'; // required by output: 'export'
@@ -16,10 +17,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: 'nutribars', priority: 0.8 },
     { path: 'our-story', priority: 0.6 },
     { path: 'contact', priority: 0.6 },
+    { path: 'blogs', priority: 0.7 },
   ];
-  return routes.map(({ path, priority }) => ({
+  return [...routes.map(({ path, priority }) => ({
     url: path ? `${site.domain}/${path}/` : `${site.domain}/`,
     lastModified: new Date(),
     priority,
-  }));
+  })), ...posts.map(post => ({ url: `${site.domain}/blogs/${post.slug}/`, lastModified: new Date(post.updatedAt), priority: 0.7 }))];
 }
