@@ -11,7 +11,7 @@ const links = [
   { href: '/shop/', label: 'Shop', prefetch: true },
   { href: '/laddus/', label: 'Laddus', prefetch: false },
   { href: '/nutribars/', label: 'Nutribars', prefetch: false },
-  { href: '/our-story/', label: 'Our Story', prefetch: false },
+  { href: '/payment/', label: 'Pay order', prefetch: false },
   { href: '/contact/', label: 'Contact', prefetch: false },
 ];
 

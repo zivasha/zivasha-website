@@ -1,6 +1,6 @@
 export const site = {
-  name: 'Zivasha',
-  legalName: 'Zivasha',
+  name: 'ZIVASHA',
+  legalName: 'Phoeniix AgriNexa Ventures',
   domain: 'https://zivasha.in',
   tagline: 'Tradition · Nourished · Gifted',
   motto: 'Rooted in Tradition. Made for Today.',
@@ -9,7 +9,12 @@ export const site = {
   whatsappDisplay: '+91 97736 95862',
   email: 'hello@zivasha.in',
   serviceArea: 'Delhi NCR — Delhi, Gurgaon, Noida, Ghaziabad, Faridabad',
-  instagram: 'https://instagram.com/zivasha.in', // handle claimed 2026-09-09
+  instagram: 'https://www.instagram.com/zivashaofficial/',
+  paymentUrl: 'https://razorpay.me/@zivasha',
+  catalogueUrl: '/catalogue/ZIVASHA-Catalogue.pdf',
+  mithaiCutoff: '20 October 2026',
+  mithaiCutoffShort: '20 October',
+  orderNotice: 'Mithai orders close 20 October and reopen after Diwali. Dry-fruit-only hamper enquiries remain open, including last-minute requests, subject to stock and delivery confirmation.',
   linkedin: '', // add when the company page exists
   // Compliance: leave empty until each is in hand — the site renders the
   // corresponding claims only when set. Never claim a licence, report or
@@ -17,11 +22,6 @@ export const site = {
   fssaiNumber: '',
   gstin: '',
   nablReportUrl: '', // set to the PDF link the day the lab report arrives
-  // Season gates (Diwali 2026)
-  customisationCutoff: '15 October 2026',
-  customisationCutoffShort: '15 Oct',
-  finalDispatch: '1 November 2026',
-  finalDispatchShort: '1 Nov',
 };
 
 /**

@@ -9,7 +9,7 @@ import { site } from '@/lib/site';
  * channel) always get complete, consistent signals.
  */
 
-/** Stable @id for the business node declared in the root layout's LocalBusiness JSON-LD. */
+/** Stable @id for the business node declared in the root layout's Organization JSON-LD. */
 export const businessId = `${site.domain}/#business`;
 
 /**
@@ -37,12 +37,7 @@ export function pageOg(image: string | null, alt: string): Metadata['openGraph']
   };
 }
 
-/**
- * ItemList of Product/Offer nodes for a catalogue page. There are no
- * per-product pages (ordering is WhatsApp-first), so items point at the
- * listing page itself — valid schema that tells engines exactly what is sold
- * at what price, without claiming product-page rich results we don't have.
- */
+/** Catalogue product descriptions without unconfirmed prices or stock claims. */
 export function productListJsonLd(
   listName: string,
   pagePath: string,
@@ -61,14 +56,6 @@ export function productListJsonLd(
         description: p.desc,
         ...(image ? { image: `${site.domain}${image}` } : {}),
         brand: { '@type': 'Brand', name: site.name },
-        offers: {
-          '@type': 'Offer',
-          price: p.price,
-          priceCurrency: 'INR',
-          availability: 'https://schema.org/InStock',
-          url: `${site.domain}${pagePath}`,
-          seller: { '@id': businessId },
-        },
       },
     })),
   };

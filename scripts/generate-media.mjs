@@ -24,6 +24,11 @@ const exts = ['jpg', 'jpeg', 'webp', 'png'];
 
 /** Slugs passed to pageOg() across app/*/ /*page.tsx — keep in sync with the pages. */
 const ogSlugs = [
+  'four-jar-festive-gift',
+  'festive-potli-basket',
+  'gond-laddu',
+  'khapli-laddu',
+  'seven-seeds-nutri-bar',
   'col-basket', // /shop/
   'story-origin', // /our-story/
   'story-gifting', // /corporate-gifting/
