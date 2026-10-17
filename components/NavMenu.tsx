@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { waGeneric } from '@/lib/site';
 
 // prefetch stays on only for the two conversion routes; the rest load on tap.
 const links = [
@@ -45,9 +44,7 @@ export default function NavMenu() {
             </Link>
           );
         })}
-        <a className="btn gold small" href={waGeneric('WEB-nav')} target="_blank" rel="noopener">
-          Order on WhatsApp
-        </a>
+
       </nav>
     </>
   );
