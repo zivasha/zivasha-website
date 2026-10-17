@@ -1,283 +1,130 @@
-import type { ArtKind } from '@/components/brand/ProductArt';
-
-export type Product = {
-  slug: string;
-  name: string;
-  desc: string;
-  weight: string;
-  price: number;
-  priceNote: 'ex-GST' | 'MRP';
-  badge?: string;
-  art: ArtKind;
-};
-
-/**
- * All prices come from the consolidated business plan (Sept 2026).
- * Hampers are corporate list prices ex-GST (B2B from 25 boxes, slab discounts
- * from 50); laddus, nutribars and pouches are retail MRP inclusive of GST.
- */
-
-export const hampers: Product[] = [
+export type Product = { slug: string; image?: string; name: string; desc: string; weight: string; kind: string; allergens?: string; };
+export const products: Product[] = [
   {
-    slug: 'aarambh',
-    art: 'hamper3',
-    name: 'Aarambh',
-    desc: '3-jar hamper — California almonds, cashews, and roasted-salted pistachios or cranberries.',
-    weight: '~300 g',
-    price: 649,
-    priceNote: 'ex-GST',
-    badge: 'Entry gift',
+    "slug": "festive-potli-basket",
+    "image": "festive-potli-basket",
+    "name": "The Festive Potli Basket",
+    "desc": "Traditional pink-and-gold and ivory potlis in a beige decorative basket. Almonds, cashews, pistachios, raisins, plus dates or mixed seeds.",
+    "weight": "Approx. 750–850 g total",
+    "kind": "hamper"
   },
   {
-    slug: 'utsav-volume',
-    art: 'hamper4',
-    name: 'Utsav',
-    desc: '4-jar hamper — almonds, cashews, roasted-salted pistachios, and cranberry or anjeer.',
-    weight: '~475 g',
-    price: 1150,
-    priceNote: 'ex-GST',
+    "slug": "four-jar-festive-gift",
+    "image": "four-jar-festive-gift",
+    "name": "The Four-Jar Festive Gift",
+    "desc": "Four glass jars with gold lids in an ornate suitcase-style presentation box. Almonds, cashews, pistachios and raisins.",
+    "weight": "Approx. 750–800 g total",
+    "kind": "hamper"
   },
   {
-    slug: 'parampara-core',
-    art: 'hamper4',
-    name: 'Parampara',
-    desc: '4-jar hamper — NPX 18/20 almonds, W240 cashews, Iranian pistachios, Medjool dates.',
-    weight: '500 g',
-    price: 1800,
-    priceNote: 'ex-GST',
-    badge: 'Corporate favourite',
+    "slug": "three-jar-floral-gift",
+    "image": "three-jar-floral-gift",
+    "name": "The Three-Jar Floral Gift",
+    "desc": "A pink floral box with gold satin, coordinated jar lids and a rope handle. Almonds, cashews and raisins.",
+    "weight": "Approx. 600–650 g total",
+    "kind": "hamper"
   },
   {
-    slug: 'signature',
-    art: 'hamper5',
-    name: 'Signature',
-    desc: '5-jar hamper — Mamra almonds, premium cashews, Akbari pistachios, Afghan anjeer, Medjool dates.',
-    weight: '500 g',
-    price: 2200,
-    priceNote: 'ex-GST',
-    badge: 'Flagship',
+    "slug": "navy-three-jar-gift",
+    "image": "navy-three-jar-gift",
+    "name": "The Navy Three-Jar Gift",
+    "desc": "A navy printed sleeve, gold slide-out tray and three glass jars. Almonds, cashews and raisins.",
+    "weight": "Approx. 700–750 g total",
+    "kind": "hamper"
   },
   {
-    slug: 'utsav-combo',
-    art: 'combo',
-    name: 'Utsav Combo',
-    desc: 'Parampara 4-jar hamper + 4 Signature Gond Laddus + 2 Seven Seeds Nutribars.',
-    weight: '~840 g',
-    price: 2199,
-    priceNote: 'ex-GST',
-    badge: 'Only at Zivasha',
+    "slug": "turquoise-gift-tray",
+    "image": "turquoise-gift-tray",
+    "name": "The Turquoise Gift Tray",
+    "desc": "A turquoise presentation box with four gold-lined compartments for cashews, almonds, pistachios and raisins.",
+    "weight": "Approx. 700–750 g total",
+    "kind": "hamper"
   },
   {
-    slug: 'signature-utsav',
-    art: 'combo',
-    name: 'Signature Utsav',
-    desc: 'The Signature hamper + 6 Gond Laddus + 4 Seven Seeds Nutribars — the complete gift.',
-    weight: '~1 kg',
-    price: 2899,
-    priceNote: 'ex-GST',
-    badge: 'Grandest',
+    "slug": "slim-festive-box",
+    "image": "slim-festive-box",
+    "name": "The Slim Festive Box",
+    "desc": "A slim pink box with four gold-lined sections. Almonds, cashews, raisins, plus dates or pistachios.",
+    "weight": "Approx. 250–300 g total",
+    "kind": "hamper"
   },
+  {
+    "slug": "gond-laddu",
+    "image": "gond-laddu",
+    "name": "Gond Laddu",
+    "desc": "Made with gond, nuts, coconut and jaggery. Choose a container for everyday moments or one made for sharing.",
+    "weight": "250 g or 500 g container",
+    "kind": "mithai"
+  },
+  {
+    "slug": "khapli-laddu",
+    "image": "khapli-laddu",
+    "name": "Khapli Laddu",
+    "desc": "Made with khapli wheat, nuts, ghee and jaggery.",
+    "weight": "250 g or 500 g container",
+    "kind": "mithai",
+    "allergens": "Contains wheat (gluten), nuts and milk ingredients."
+  },
+  {
+    "slug": "seven-seeds-nutri-bar",
+    "image": "seven-seeds-nutri-bar",
+    "name": "Seven Seeds Nutri Bar",
+    "desc": "Made with seven seeds, oats, dates and nuts. A seed-filled treat for gifting or sharing.",
+    "weight": "250 g or 500 g container",
+    "kind": "nutribar"
+  },
+  {
+    "slug": "six-tin-gift",
+    "name": "The Six-Tin Gift",
+    "desc": "Six individual tins in a fitted presentation box. Dry-fruit assortment, total net weight and packaging are confirmed on enquiry.",
+    "weight": "Net weight confirmed on enquiry",
+    "kind": "format"
+  },
+  {
+    "slug": "mixed-celebration-gift",
+    "name": "The Mixed Celebration Gift",
+    "desc": "Dry fruits, laddus and nutri bars in one gift assortment. Share your occasion and preferred selection; we confirm the contents and packaging.",
+    "weight": "Contents and net weight confirmed on enquiry",
+    "kind": "format"
+  },
+  {
+    "slug": "festive-quartet",
+    "name": "Festive Quartet",
+    "desc": "Four standing pouches with a greeting card. Choose from dry-fruit laddus, Gond laddus and seven-seed nutri bars.",
+    "weight": "4 × 100 g pouches",
+    "kind": "format"
+  },
+  {
+    "slug": "diwali-moments",
+    "name": "Diwali Moments",
+    "desc": "A compact festive gift with two pouches, a greeting card and two diyas.",
+    "weight": "2 × 100 g pouches",
+    "kind": "format"
+  },
+  {
+    "slug": "festive-mini",
+    "name": "Festive Mini",
+    "desc": "A resealable pouch of dry-fruit laddu, Gond laddu or seven-seed nutri bar. Outer gift wrapping is available on enquiry.",
+    "weight": "100 g pouch",
+    "kind": "format"
+  },
+  {
+    "slug": "nutri-jar",
+    "image": "seven-seeds-nutri-bar",
+    "name": "Nutri Jar",
+    "desc": "Seven-seed nutri bars in a compact jar for gifting or sharing. Image illustrates the container range.",
+    "weight": "250 g jar",
+    "kind": "format"
+  },
+  {
+    "slug": "nutty-box",
+    "name": "The Nutty Box",
+    "desc": "Dry-fruit laddus and seven-seed nutri bars in one festive assortment. Final selection and packaging are confirmed on WhatsApp.",
+    "weight": "500 g assortment",
+    "kind": "format"
+  }
 ];
-
-export const laddus: Product[] = [
-  {
-    slug: 'laddu-jar',
-    art: 'laddu',
-    name: 'Gift Jar of 4',
-    desc: 'Signature Gond & Dry Fruit Laddus — gond, jaggery, desi ghee and premium nuts.',
-    weight: '~250 g',
-    price: 425,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'laddu-box-8',
-    art: 'laddu',
-    name: 'Box of 8',
-    desc: 'The family box — traditional winter nourishment, sweetened with jaggery.',
-    weight: '~500 g',
-    price: 749,
-    priceNote: 'MRP',
-    badge: 'Most gifted',
-  },
-  {
-    slug: 'laddu-box-12',
-    art: 'laddu',
-    name: 'Festive Box of 12',
-    desc: 'The celebration box for Diwali, Bhai Dooj and weddings.',
-    weight: '~800 g',
-    price: 1149,
-    priceNote: 'MRP',
-  },
-];
-
-export const nutribars: Product[] = [
-  {
-    slug: 'bar-single',
-    art: 'bar',
-    name: 'Single Bar',
-    desc: 'Pumpkin, sunflower, flax, chia, sesame, watermelon and hemp seeds. Healthy indulgence, zero junk.',
-    weight: '1 bar',
-    price: 70,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'bar-6',
-    art: 'bar',
-    name: 'Pack of 6',
-    desc: 'A week of clean snacking — desk drawer, gym bag, school tiffin.',
-    weight: '6 bars',
-    price: 420,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'bar-12',
-    art: 'bar',
-    name: 'Pack of 12',
-    desc: 'The office box — corporate wellness packs available on request.',
-    weight: '12 bars',
-    price: 799,
-    priceNote: 'MRP',
-    badge: 'Office pack',
-  },
-];
-
-/**
- * Pouch range expanded Sept 2026 (reference: full-catalogue dry fruit brands).
- * The first four SKUs carry plan-costed prices; the rest are priced from the
- * Sept-2026 Khari Baoli wholesale research at a ≥40% GM target — VERIFY each
- * against actual purchase invoices before printing MRP labels (35% GM floor).
- */
-export const pouches: Product[] = [
-  {
-    slug: 'almond-500',
-    art: 'pouch',
-    name: 'California Almonds',
-    desc: 'Everyday premium almonds, resealable pouch.',
-    weight: '500 g',
-    price: 649,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'mamra-250',
-    art: 'pouch',
-    name: 'Mamra Almonds',
-    desc: 'The rare, oil-rich almond prized for generations — the connoisseur’s choice.',
-    weight: '250 g',
-    price: 1199,
-    priceNote: 'MRP',
-    badge: 'Rare & premium',
-  },
-  {
-    slug: 'cashew-500',
-    art: 'pouch',
-    name: 'Whole Cashews',
-    desc: 'Creamy whole cashews, resealable pouch.',
-    weight: '500 g',
-    price: 699,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'pista-250',
-    art: 'pouch',
-    name: 'Roasted Salted Pistachios',
-    desc: 'Lightly salted, roasted in-shell pistachios.',
-    weight: '250 g',
-    price: 649,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'walnut-250',
-    art: 'pouch',
-    name: 'Walnut Kernels',
-    desc: 'Light, fresh-cracked halves — packed in small batches for freshness.',
-    weight: '250 g',
-    price: 599,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'anjeer-250',
-    art: 'pouch',
-    name: 'Premium Anjeer',
-    desc: 'Soft, honey-sweet dried figs.',
-    weight: '250 g',
-    price: 499,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'medjool-400',
-    art: 'pouch',
-    name: 'Medjool Dates',
-    desc: 'The king of dates — plump, caramel-soft, naturally sweet.',
-    weight: '400 g',
-    price: 749,
-    priceNote: 'MRP',
-    badge: 'Bestseller abroad',
-  },
-  {
-    slug: 'apricot-250',
-    art: 'pouch',
-    name: 'Dried Apricots',
-    desc: 'Sun-dried Turkish apricots — tangy-sweet, no added sugar needed by nature.',
-    weight: '250 g',
-    price: 449,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'cranberry-250',
-    art: 'pouch',
-    name: 'Dried Cranberries',
-    desc: 'Ruby-red, tart-sweet — for snacking, salads and baking.',
-    weight: '250 g',
-    price: 349,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'raisin-black-250',
-    art: 'pouch',
-    name: 'Black Raisins',
-    desc: 'Seedless Afghan-style black raisins — deep, winey sweetness.',
-    weight: '250 g',
-    price: 299,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'makhana-100',
-    art: 'pouch',
-    name: 'Makhana (Fox Nuts)',
-    desc: 'Feather-light lotus seeds — the classic fasting and evening snack.',
-    weight: '100 g',
-    price: 299,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'seeds-mix-250',
-    art: 'pouch',
-    name: 'Seven Seeds Mix',
-    desc: 'The Nutribar’s seven seeds, loose — pumpkin, sunflower, flax, chia, sesame, watermelon, hemp.',
-    weight: '250 g',
-    price: 399,
-    priceNote: 'MRP',
-  },
-  {
-    slug: 'festive-mix-250',
-    art: 'pouch',
-    name: 'Festive Trail Mix',
-    desc: 'Almonds, cashews, pistachios, raisins and cranberries — the celebration handful.',
-    weight: '250 g',
-    price: 499,
-    priceNote: 'MRP',
-  },
-];
-
-export const slabPricing = [
-  { qty: '25 – 49 boxes', discount: 'List price', note: 'Free logo sleeve from 25 boxes' },
-  { qty: '50 – 99 boxes', discount: '− 8%', note: '' },
-  { qty: '100 – 249 boxes', discount: '− 12%', note: '' },
-  { qty: '250 – 499 boxes', discount: '− 18%', note: '' },
-  { qty: '500+ boxes', discount: '− 22%', note: 'Signature tier capped at −18%' },
-];
-
-export const slabExceptions =
-  'Aarambh stays a flat ₹649 at every quantity (excluded from slab discounts) · Signature caps at −18%.';
-
-export const inr = (n: number) => `₹${n.toLocaleString('en-IN')}`;
+export const hampers = products.filter(p => p.kind === 'hamper');
+export const laddus = products.filter(p => p.kind === 'mithai');
+export const nutribars = products.filter(p => p.kind === 'nutribar');
+export const giftingFormats = products.filter(p => p.kind === 'format');
