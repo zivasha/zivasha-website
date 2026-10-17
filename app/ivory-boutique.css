@@ -1,0 +1,128 @@
+/* Owner-approved Ivory Boutique direction; product and payment logic remain unchanged. */
+:root{--cream:#f8f3e9;--cream-2:#eee5d6;--paper:#fcf9f3;--burgundy:#5a2034;--green:var(--burgundy);--green-2:#441727;--green-soft:#f0e6df;--gold:#a17b43;--gold-2:#c3a370;--gold-text:#806037;--gold-soft:#e8dcc8;--ink:#342926;--muted:#716358;--line:#e3d9ca;--font-display:var(--font-body)}
+body{font-size:15px;line-height:1.75}
+button,input,select,textarea{font-family:inherit}
+h1,h2,h3{font-family:var(--font-serif),Georgia,serif;font-weight:500;line-height:1.15}
+.wrap,.header-in,.footer-in{max-width:1240px;padding-left:40px;padding-right:40px}
+.announce{background:var(--cream-2);color:#6d5147;padding:9px 24px;font-size:11px;letter-spacing:.02em}
+.announce strong{color:var(--burgundy)}
+.header{background:var(--cream);border-color:var(--line)}
+.header-in{padding-top:20px;padding-bottom:20px;gap:24px}
+.approved-lockup b{font-family:Georgia,serif;font-size:24px;font-weight:400;letter-spacing:2px}
+.approved-lockup.light,.approved-lockup.dark{color:var(--burgundy)}
+.approved-lockup small{font-family:var(--font-body),sans-serif;font-size:8px;letter-spacing:1.2px;color:var(--muted)}
+.approved-lockup img{width:48px;height:48px}
+.nav{gap:24px}
+.nav a{color:var(--ink);font-size:12px;font-weight:500;letter-spacing:0}
+.nav a:hover,.nav a.active{color:var(--burgundy);text-decoration:underline;text-underline-offset:5px}
+.nav-toggle{color:var(--burgundy);border-color:var(--line);font-family:inherit;font-weight:500;letter-spacing:0;min-height:44px}
+.header-cart{color:var(--burgundy);border:0;padding:8px 0 8px 10px;min-height:44px;font-size:12px;font-weight:500}
+.header-cart:hover{color:var(--burgundy)}
+.header-cart b{background:var(--burgundy);color:var(--paper);min-width:22px;line-height:22px}
+.header-cart svg{width:18px}
+.header a:focus-visible,.header button:focus-visible,.footer a:focus-visible{outline-color:var(--burgundy)}
+.skip-link{position:fixed;top:-100px;left:16px;z-index:100;padding:12px 18px;background:var(--burgundy);color:#fff}
+.skip-link:focus{top:10px}
+.btn{font-family:var(--font-body),sans-serif;font-size:12px;font-weight:500;letter-spacing:.01em;padding:14px 21px;min-height:44px;line-height:1.5;border-radius:2px}
+.btn.gold{background:var(--burgundy);border-color:var(--burgundy);color:var(--paper)}
+.btn.gold:hover{background:var(--green-2);border-color:var(--green-2)}
+.btn.ghost{color:var(--burgundy);border-color:var(--burgundy)}
+.eyebrow{font-family:var(--font-body),sans-serif;font-size:11px;font-weight:500;line-height:1.5;letter-spacing:.18em;color:var(--gold-text)}
+.boutique-hero{display:grid;grid-template-columns:.88fr 1.12fr;gap:48px;align-items:center;padding-top:64px;padding-bottom:48px}
+.boutique-copy h1{color:var(--burgundy);font-size:clamp(42px,4.5vw,64px);line-height:1.04;letter-spacing:-1.6px;margin:20px 0 24px;text-wrap:initial}
+.boutique-copy h1 em{font-weight:500}
+.boutique-lede{max-width:36ch;font-size:15px;color:var(--muted);margin:0 0 28px}
+.boutique-copy .btn span{padding-left:22px}
+.boutique-caption{color:var(--muted);font-size:12px;margin:18px 0 0}
+.boutique-figure{margin:0;min-width:0}
+.boutique-photo{position:relative;aspect-ratio:3/2;background:#eee6d8}
+.boutique-photo img{object-fit:contain}
+.boutique-figure figcaption{text-align:right;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-size:10px;margin-top:12px}
+.section{padding:64px 0}
+.section.alt{background:var(--paper);border:0}
+.section-head{text-align:left;margin-bottom:32px}
+.section-head h2,.boutique-section-heading h2,.boutique-bulk h2,.split h2{font-size:clamp(30px,3vw,40px);font-weight:500;letter-spacing:-.6px;line-height:1.15;margin:8px 0 12px;color:var(--burgundy)}
+.section-head p{max-width:78ch;margin-left:0;margin-right:0;font-size:14px}
+.section-head .eyebrow{margin-left:0;margin-bottom:10px}
+.boutique-featured{padding-top:30px;padding-bottom:32px}
+.boutique-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:28px}
+.boutique-section-heading .eyebrow{margin-bottom:8px}
+.text-link{color:var(--burgundy);font-size:12px;text-decoration:underline;text-underline-offset:5px;white-space:nowrap;padding:12px 0}
+.cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 28px}
+.card{background:transparent;border:0;overflow:visible}
+.card-photo{background:#eee6d8}
+.card-body{padding:20px 0 0;border:0}
+.card h3{font-size:28px;font-weight:500;margin:0 0 12px;line-height:1.1}
+.card p.desc{font-size:13px;line-height:1.7;margin-bottom:12px}
+.catalogue-weight{font-size:12px;font-weight:500;margin:2px 0}
+.product-purchase{margin-top:16px;border-top:1px solid var(--line);padding-top:12px}
+.product-price{font-size:18px;font-weight:500;color:var(--ink);margin:8px 0 14px}
+.product-price small{font-size:11px}
+.product-purchase label{font-size:12px;font-weight:500}
+.product-purchase select{border-color:var(--line);font-size:16px;border-radius:2px;padding:10px 12px}
+.product-enquiry{font-size:12px;color:var(--burgundy);text-underline-offset:4px;padding:5px 0}
+.cart-feedback{font-size:12px}
+.image-note{font-size:11px;line-height:1.6}
+.allergen-note{font-size:12px}
+.boutique-featured .card p.desc{display:none}
+.boutique-featured .card h3{min-height:62px}
+.boutique-featured .product-purchase{display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 14px}
+.boutique-featured .product-price{margin:0}
+.boutique-featured .cart-add{width:auto;border:0;border-bottom:1px solid var(--gold);background:transparent;color:var(--burgundy);padding:10px 0;border-radius:0}
+.boutique-featured .cart-add:hover{color:var(--green-2);border-bottom-color:var(--burgundy)}
+.boutique-featured .cart-feedback{grid-column:1/-1}
+.boutique-bulk{display:flex;justify-content:space-between;align-items:center;gap:30px;padding-top:32px;padding-bottom:40px;margin-top:10px;margin-bottom:32px;position:relative}
+.boutique-bulk:before{content:'';position:absolute;top:0;left:40px;right:40px;border-top:1px solid var(--gold)}
+.boutique-bulk h2{font-size:34px;margin-bottom:0}
+.boutique-bulk .btn{flex-shrink:0}
+.boutique-ordering .split{gap:64px}
+.boutique-ordering .season-note{margin:0;align-self:stretch}
+.catalogue-link{margin-top:22px;font-size:13px}
+.season-note{background:var(--cream-2);border-left:1px solid var(--gold);padding:24px 28px}
+.season-note p{font-size:13px}
+.page-hero{background:var(--cream);padding:60px 24px 42px}
+.page-hero h1{font-size:clamp(40px,4.5vw,56px);font-weight:500;line-height:1.08;letter-spacing:-1px}
+.page-hero h1 em{color:var(--burgundy)}
+.page-hero p{font-size:14px}
+.page-hero .eyebrow{font-size:11px}
+.page-hero>.btn{margin-top:22px}
+.format-art{background:var(--cream-2);color:var(--burgundy);border-bottom:1px solid var(--gold)}
+.footer{background:var(--cream-2);color:var(--muted);margin-top:24px;border-top:1px solid var(--line)}
+.footer-in{padding-top:48px;padding-bottom:24px;gap:32px}
+.footer h4{font-family:var(--font-body),sans-serif;color:var(--burgundy);font-size:11px;letter-spacing:.12em;font-weight:600}
+.footer a{color:var(--muted)}
+.footer a:hover{color:var(--burgundy)}
+.footer p,.footer ul{font-size:12px}
+.footer-legal{border-color:var(--line);color:var(--muted);padding-bottom:90px;margin-top:20px;font-size:11px}
+.wa-fab{background:var(--burgundy);padding:12px 18px;font-size:12px;font-weight:500;box-shadow:0 3px 14px #3429261a}
+.cart-summary{background:var(--cream-2);border-top:1px solid var(--gold)}
+.cart-item h2{font-size:27px;font-weight:500}
+.cart-image{background:var(--cream-2)}
+.summary-row{font-size:13px}
+.summary-row strong{white-space:normal;text-align:right}
+.order-details h2{font-size:38px;font-weight:500}
+.order-card,.payment-panel{padding:32px;background:var(--paper)}
+.form label{font-weight:500;letter-spacing:0}
+.form input:focus,.form textarea:focus,.form select:focus{outline-color:var(--burgundy);border-color:var(--burgundy)}
+@media(max-width:1060px){
+ .nav{background:var(--cream);border-bottom:1px solid var(--line);box-shadow:0 12px 20px #34292610;gap:0}.nav a{font-size:14px;padding:14px 32px}
+ .boutique-hero{gap:30px}.cards,.cards.three{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .boutique-featured .cards{grid-template-columns:repeat(3,minmax(0,1fr))}.boutique-featured .product-purchase{grid-template-columns:1fr;justify-items:start}.boutique-featured .card h3{font-size:25px;min-height:58px}
+ .footer-in{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:700px){
+ .wrap,.header-in,.footer-in{padding-left:22px;padding-right:22px}.header-in{padding-top:16px;padding-bottom:16px;gap:12px}
+ .approved-lockup{gap:8px}.approved-lockup b{font-size:21px;letter-spacing:1.2px}.approved-lockup small{font-size:6px;letter-spacing:.65px}.approved-lockup img{width:40px;height:40px}
+ .header-cart{padding-left:0;font-size:12px}.nav-toggle{padding:8px 10px;font-size:11px}.announce{font-size:10px;padding:8px 20px;letter-spacing:0}
+ .boutique-hero{grid-template-columns:1fr;padding-top:36px;padding-bottom:32px;gap:32px}.boutique-copy h1{font-size:45px;letter-spacing:-1px;margin:16px 0 20px}.boutique-lede{max-width:42ch;font-size:14px;margin-bottom:24px}.boutique-caption{font-size:11px}
+ .section{padding:42px 0}.boutique-featured{padding-top:16px;padding-bottom:24px}.boutique-section-heading{display:block;margin-bottom:26px}
+ .boutique-section-heading h2,.section-head h2,.split h2{font-size:32px}.text-link{display:inline-block;padding-bottom:0}
+ .cards,.cards.three,.boutique-featured .cards{grid-template-columns:1fr;gap:36px}
+ .boutique-featured .card h3{min-height:0;font-size:29px}.boutique-featured .product-purchase{grid-template-columns:1fr auto;justify-items:stretch}
+ .boutique-bulk{flex-direction:column;align-items:flex-start;gap:20px;padding-top:26px;padding-bottom:30px;margin-bottom:16px}.boutique-bulk:before{left:22px;right:22px}.boutique-bulk h2{font-size:32px}
+ .boutique-ordering .split{gap:30px}.page-hero{padding-top:38px;padding-bottom:32px}.page-hero h1{font-size:40px}.page-hero .hero-ctas{gap:10px}
+ .cart-summary{padding:24px}.footer-in{gap:30px}.footer-in>div:first-child{grid-column:1/-1}.footer .approved-lockup small{font-size:8px}
+}
+@media(max-width:380px){
+ .header-in{padding-left:14px;padding-right:14px;gap:8px}.approved-lockup b{font-size:18px}.approved-lockup small{display:none}.boutique-copy h1{font-size:39px}.footer-in{grid-template-columns:1fr}
+}
