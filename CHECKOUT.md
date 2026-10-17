@@ -12,7 +12,7 @@ The site is a Next.js static export on Netlify. `netlify/functions/razorpay-chec
 
 ## Secure configuration
 
-Set `RAZORPAY_KEY_ID` and `RAZORPAY_KEY_SECRET` as Netlify environment variables for production **Functions** only, after owner approval. Do not expose live credentials to Deploy Previews or browser code. Redeploy after setting variables. Use separate test credentials in an isolated test environment for end-to-end simulation before taking live payments.
+Set `RAZORPAY_KEY_ID` and `RAZORPAY_KEY_SECRET` as protected Netlify environment variables for the **production context only**, after owner approval of the available scopes. The current Netlify plan does not support Functions-only scope without an upgrade; production-wide scope also makes the variables available to production build code. Do not expose live credentials to Deploy Previews, branch deploys or browser code. Redeploy after setting variables. Use separate test credentials in an isolated test environment for end-to-end simulation before taking live payments.
 
 The integration wizard provides credentials, but enabling a key does not itself confirm an order or a payment. There is no public endpoint that accepts a customer-entered charge amount.
 
