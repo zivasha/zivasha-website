@@ -9,6 +9,7 @@ const links = [
   { href: '/shop/', label: 'The collection', prefetch: true },
   { href: '/corporate-gifting/', label: 'Corporate gifting', prefetch: true },
   { href: '/our-story/', label: 'Our story', prefetch: false },
+  { href: '/blogs/', label: 'Blogs', prefetch: false },
   { href: '/contact/', label: 'Contact', prefetch: false },
 ];
 
@@ -28,7 +29,7 @@ export default function NavMenu() {
       </button>
       <nav id="main-nav" className={open ? 'nav open' : 'nav'} aria-label="Main">
         {links.map((l) => {
-          const active = pathname === l.href || pathname === l.href.replace(/\/$/, '');
+          const active = pathname === l.href || pathname === l.href.replace(/\/$/, '') || pathname.startsWith(l.href);
           return (
             <Link
               key={l.href}
