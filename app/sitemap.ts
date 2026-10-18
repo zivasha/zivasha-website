@@ -1,6 +1,8 @@
 import type { MetadataRoute } from 'next';
 import posts from '@/lib/blog-posts.json';
 import { site } from '@/lib/site';
+import { products } from '@/lib/products';
+import { productPath } from '@/lib/product-details';
 
 export const dynamic = 'force-static'; // required by output: 'export'
 
@@ -23,5 +25,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: path ? `${site.domain}/${path}/` : `${site.domain}/`,
     lastModified: new Date(),
     priority,
-  })), ...posts.map(post => ({ url: `${site.domain}/blogs/${post.slug}/`, lastModified: new Date(post.updatedAt), priority: 0.7 }))];
+  })), ...products.map(product => ({url:site.domain+productPath(product.slug), priority:0.8})), ...posts.map(post => ({ url: `${site.domain}/blogs/${post.slug}/`, lastModified: new Date(post.updatedAt), priority: 0.7 }))];
 }
