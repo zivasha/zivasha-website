@@ -17,7 +17,7 @@ export async function generateMetadata({params}:Props):Promise<Metadata> {
   if (!post) return {title:'Article not found'};
   return {title:post.title, description:post.description, keywords:post.keywords,
     alternates:{canonical:'/blogs/'+post.slug+'/'},
-    openGraph:{...pageOg(post.image,post.imageAlt),url:'/blogs/'+post.slug+'/',type:'article',publishedTime:post.publishedAt,modifiedTime:post.updatedAt,authors:[post.author]},
+    openGraph:{...pageOg(post.image,post.imageAlt),title:post.title,description:post.description,url:'/blogs/'+post.slug+'/',type:'article',publishedTime:post.publishedAt,modifiedTime:post.updatedAt,authors:[post.author]},
   };
 }
 export default async function BlogPost({params}:Props) {
