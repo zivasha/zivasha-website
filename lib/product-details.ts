@@ -1,6 +1,6 @@
 import { type Product } from './products';
 
-type Detail = { title: string; intro: string; packaging: string; ingredients: string; note: string };
+type Detail = { title: string; intro: string; packaging: string; ingredients: string; note: string; description?: string; highlights?: {label: string; value: string}[] };
 
 /** Approved catalogue facts only. Unconfirmed recipe, stock and shelf-life details stay explicit. */
 export const productDetails: Record<string, Detail> = {
@@ -48,21 +48,27 @@ export const productDetails: Record<string, Detail> = {
   },
   'gond-laddu': {
     title: 'Gond Laddu — 250 g & 500 g Containers',
+    description: 'Explore ZIVASHA Gond Laddu with edible gond, nuts, coconut and jaggery. Compare 250 g and 500 g containers, ingredient details and bulk gifting options.',
     intro: 'ZIVASHA Gond Laddu brings together edible gond, nuts, coconut and jaggery. Choose a 250 g or 500 g container for sharing at home or including in a gift selection.',
+    highlights: [{label: 'The mithai', value: 'Edible gond, nuts & coconut'}, {label: 'Sweetened with', value: 'Jaggery'}, {label: 'Choose your pack', value: '250 g or 500 g container'}],
     packaging: '250 g and 500 g containers. The 500 g price is listed; the 250 g pack is quoted on request.',
     ingredients: 'Key ingredients: edible gond, nuts, coconut and jaggery. This is a product overview, not the complete ingredient declaration.',
     note: 'Contains nuts. Ask us to confirm the complete ingredient list and other allergens before ordering.',
   },
   'khapli-laddu': {
     title: 'Khapli Wheat Laddu — 250 g & 500 g Containers',
-    intro: 'A laddu made with khapli wheat, nuts, ghee and jaggery. ZIVASHA offers this mithai in 250 g and 500 g containers, with bulk gifting quotations available on enquiry.',
+    description: 'Discover ZIVASHA Khapli Laddu with emmer wheat, nuts, ghee and jaggery. Choose 250 g or 500 g containers and explore ingredients, allergens and gifting.',
+    intro: 'ZIVASHA Khapli Laddu is a wheat-based mithai made with khapli, nuts, ghee and jaggery. Khapli is emmer wheat. Choose a 250 g or 500 g container for sharing or enquire about a bulk gift order.',
+    highlights: [{label: 'The grain', value: 'Khapli / emmer wheat'}, {label: 'Also made with', value: 'Nuts, ghee & jaggery'}, {label: 'Choose your pack', value: '250 g or 500 g container'}],
     packaging: '250 g and 500 g containers. Choose the pack size before adding it to your cart.',
     ingredients: 'Key ingredients: khapli wheat, nuts, ghee and jaggery. Confirm the complete ingredient declaration for your order.',
     note: 'Contains wheat (gluten), nuts and milk ingredients. Khapli wheat is not gluten-free.',
   },
   'seven-seeds-nutri-bar': {
     title: 'Seven Seeds Nutri Bar — 250 g & 500 g Containers',
-    intro: 'A seed-filled bar made with seven seeds, oats, dates and nuts. Choose a 250 g or 500 g container for sharing, or enquire about adding the bars to a gift assortment.',
+    description: 'Explore ZIVASHA Seven Seeds Nutri Bar with oats, dates and nuts in 250 g and 500 g containers. Read pack details, ingredient questions and gifting options.',
+    intro: 'ZIVASHA Seven Seeds Nutri Bar combines a seven-seed blend with oats, dates and nuts in a bar format. Choose a 250 g or 500 g container for sharing, or enquire about including the bars in a gift assortment.',
+    highlights: [{label: 'The format', value: 'Seed, oat, date & nut bars'}, {label: 'Pack sizes', value: '250 g or 500 g container'}, {label: 'Weight means', value: 'Total contents, not one bar'}],
     packaging: '250 g and 500 g containers. The listed pack weight is the total contents, not the weight of one bar.',
     ingredients: 'Key ingredients: seven seeds, oats, dates and nuts. Ask us for the complete seed and ingredient list for your order.',
     note: 'Contains nuts and oats. No gluten-free claim is made; confirm the full allergen information before ordering.',
@@ -121,6 +127,24 @@ export const productDetails: Record<string, Detail> = {
 export const productPath = (slug: string) => `/shop/${slug}/`;
 export const productCategory = (p: Product) => p.kind === 'hamper' ? 'Dry-fruit gift hampers' : p.kind === 'mithai' ? 'Mithai' : p.kind === 'nutribar' ? 'Nutri bars' : 'Gifting formats';
 
+const ingredientFaqs: Record<string, {q: string; a: string}[]> = {
+  'gond-laddu': [
+    {q: 'What is in ZIVASHA Gond Laddu?', a: 'The key ingredients are edible gond, nuts, coconut and jaggery. This overview is not the complete recipe or label declaration. Ask for the full ingredients and allergen information for your order.'},
+    {q: 'Is Gond Laddu the same as Khapli Laddu?', a: 'They are different products. Edible gond is a key ingredient in our Gond Laddu; khapli wheat is a key ingredient in our Khapli Laddu. Both include nuts and jaggery. Khapli Laddu also contains ghee and wheat gluten.'},
+    {q: 'Does the 500 g container contain a fixed number of laddus?', a: '500 g is the total net weight of the contents. We do not promise a fixed piece count. If you need one laddu per guest or an exact number in each gift, ask us to confirm the piece count before ordering.'},
+  ],
+  'khapli-laddu': [
+    {q: 'What is Khapli Laddu made of?', a: 'Our Khapli Laddu includes khapli wheat, nuts, ghee and jaggery. Khapli is also called emmer wheat. Ask for the complete ingredient declaration for your chosen pack before payment.'},
+    {q: 'Is Khapli Laddu gluten-free or dairy-free?', a: 'No. Khapli is wheat and contains gluten; our Khapli Laddu also contains milk ingredients from ghee and contains nuts. It is not a gluten-free or dairy-free product.'},
+    {q: 'Which size should I choose for gifting?', a: 'Both 250 g and 500 g containers are offered. Choose by the quantity of mithai you want to give; the pack weight is not a guaranteed piece count. For a larger order, share the number of gifts, delivery pincode and required date for a quotation.'},
+  ],
+  'seven-seeds-nutri-bar': [
+    {q: 'Which seeds and ingredients are in the Nutri Bar?', a: 'The confirmed overview is a seven-seed blend with oats, dates and nuts. The exact seven seeds and complete ingredient declaration must be confirmed for your order. Please ask before purchasing if a particular seed or ingredient matters to you.'},
+    {q: 'Is 250 g the weight of one Nutri Bar?', a: 'No. 250 g and 500 g refer to the total contents of the container. The number of bars and the weight of an individual bar are confirmed on enquiry.'},
+    {q: 'Are the bars gluten-free or nut-free?', a: 'The bars contain nuts and oats, and we do not offer them as gluten-free or nut-free. Ask for the complete allergen declaration before placing your order.'},
+  ],
+};
+
 export function productFaqs(p: Product) {
   const answer = p.kind === 'mithai'
     ? 'Mithai orders for this Diwali close on 20 October 2026 and reopen after Diwali. The reopening date is not yet confirmed.'
@@ -128,6 +152,7 @@ export function productFaqs(p: Product) {
       ? 'Dry-fruit-only hamper enquiries remain open, including last-minute festive requests, subject to stock, packaging availability and delivery confirmation.'
       : 'Please confirm the deadline for your selected nutri-bar or mixed gift order with ZIVASHA. Availability and delivery are confirmed before payment.';
   return [
+    ...(ingredientFaqs[p.slug] ?? []),
     {q: 'How do I order this product?', a: 'Choose your pack and quantity, add it to the cart and submit an order request. ZIVASHA confirms availability, GST, delivery charges and the final total before sending a secure Razorpay payment link.'},
     {q: 'Can I order in bulk?', a: 'Yes, you can request a bulk quotation. Share the product, number of packs, delivery city or pincode and required date. Any discount or custom packaging is confirmed individually.'},
     {q: 'Where is delivery available?', a: 'Our delivery focus is Delhi NCR. For other locations, ask us to confirm delivery feasibility, charges and the required date before payment.'},

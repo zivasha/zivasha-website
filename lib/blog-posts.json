@@ -125,10 +125,11 @@
         ]
       },
       {
-        "heading": "What should you check before buying?",
+        "heading": "From Khapli wheat to Khapli Laddu",
         "paragraphs": [
-          "Read the full ingredient list, allergen declaration and net weight. A grain’s name alone does not describe the nutritional composition of a finished laddu; the other ingredients and recipe matter too.",
-          "ZIVASHA’s Khapli Laddu contains wheat and gluten. This article explains general growing regions, not the origin of our particular batches. If sourcing matters to your purchase, ask our team for the available batch information before ordering."
+          "A grain’s name alone does not describe a finished laddu. ZIVASHA Khapli Laddu includes khapli wheat, nuts, ghee and jaggery. It contains wheat gluten, nuts and milk ingredients. Read the complete ingredient and allergen declaration before choosing a pack.",
+          "Our Khapli Laddu is offered in 250 g and 500 g containers. These are net pack weights, not guaranteed piece counts. For gifting, confirm the number of containers, required date and delivery pincode, along with storage and best-before details.",
+          "The farming regions described here explain the grain, not the origin of ZIVASHA’s particular batches. Ask our team for available batch information if regional sourcing matters to your purchase."
         ],
         "sourceIds": []
       }
@@ -158,6 +159,150 @@
     "relatedPath": "/shop/khapli-laddu/",
     "relatedLabel": "Explore Khapli Laddu",
     "publishedAt": "2026-10-18T10:23:00+05:30",
-    "updatedAt": "2026-10-18T10:23:00+05:30"
+    "updatedAt": "2026-10-18T11:25:01+05:30"
+  },
+  {
+    "slug": "gond-laddu-ingredients-and-edible-gond",
+    "title": "Gond Laddu: ingredients, edible gond and choosing a pack",
+    "description": "What is Gond Laddu made of? Understand edible gond, ZIVASHA’s key ingredients, pack weights and the details to check before buying mithai gifts.",
+    "category": "Ingredient knowledge",
+    "publishedAt": "2026-10-18T11:25:01+05:30",
+    "updatedAt": "2026-10-18T11:25:01+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "Gond Laddu ingredients",
+      "edible gond",
+      "gond laddoo",
+      "jaggery mithai",
+      "mithai gifting"
+    ],
+    "image": "/products/gond-laddu.jpg",
+    "imageAlt": "Illustrated ZIVASHA Gond Laddu container presentation",
+    "imageCaption": "AI-generated product illustration; actual appearance and packaging may vary. The illustration does not identify the gum species or batch origin.",
+    "intro": "Gond Laddu is an Indian sweet featuring edible gond. If you are choosing it for a gift, start with the ingredients and pack details rather than assuming every recipe is the same. ZIVASHA’s key ingredients are edible gond, nuts, coconut and jaggery.",
+    "takeaway": "Choose Gond Laddu by its complete ingredient declaration, allergens and net weight. The name “gond” alone does not identify a particular botanical source.",
+    "sections": [
+      {
+        "heading": "What does edible gond mean?",
+        "paragraphs": [
+          "Edible plant gums are a group of ingredients, not one interchangeable material. FAO/JECFA describes gum arabic, also called acacia gum, as dried exudate from certain Acacia species. FAO separately identifies tragacanth as a gum obtained from Astragalus shrubs.",
+          "These examples explain why the gum’s identity matters; they do not establish which species is used in ZIVASHA’s recipe. That detail needs confirmation from the product specification. A photograph or a general name cannot verify the source."
+        ],
+        "sourceIds": [
+          "jecfa",
+          "fao"
+        ]
+      },
+      {
+        "heading": "What is in the laddu?",
+        "paragraphs": [
+          "Our product overview lists gond, nuts, coconut and jaggery. It is a starting point, rather than the complete ingredient list in order of quantity. Recipes can differ, so ask for the final declaration instead of assuming flour, ghee or particular nuts are present or absent.",
+          "Food labels distinguish ingredients from allergen information. FSSAI’s labelling guidance covers both: check the ingredient list and the separate allergen declaration, including any cross-contact information relevant to the recipient."
+        ],
+        "sourceIds": [
+          "fssai"
+        ]
+      },
+      {
+        "heading": "Choosing a Gond Laddu gift",
+        "paragraphs": [
+          "ZIVASHA offers 250 g and 500 g containers. These figures describe the total net contents, not the number of laddus. If you are planning individual gifts or a shared box, confirm the piece count you need before ordering.",
+          "For a bulk enquiry, share the pack size, number of containers, delivery pincode and required date. Ask for storage instructions and the applicable best-before information with the final pack details. This helps you choose for the occasion without relying on a generic shelf-life promise."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "jecfa",
+        "title": "FAO/JECFA · Gum arabic: definition and identity",
+        "url": "https://www.fao.org/4/w6355e/w6355e0g.htm"
+      },
+      {
+        "id": "fao",
+        "title": "FAO · Plant gums: gum tragacanth, section 2.1",
+        "url": "https://www.fao.org/4/x5326e/x5326e08.htm"
+      },
+      {
+        "id": "fssai",
+        "title": "FSSAI · Labelling and Display Regulations, Version VIII (ingredients, nutrition and allergens)",
+        "url": "https://fssai.gov.in/upload/uploadfiles/files/Comp_Labelling%20Display_Version%20VIII_09_09_2025.pdf"
+      }
+    ],
+    "relatedPath": "/shop/gond-laddu/",
+    "relatedLabel": "Explore Gond Laddu"
+  },
+  {
+    "slug": "seven-seeds-nutri-bar-ingredients-and-pack-guide",
+    "title": "Seven Seeds Nutri Bar: ingredients and pack sizes explained",
+    "description": "A practical guide to seed-bar ingredients, nutrition labels, allergens and 250 g or 500 g containers when choosing ZIVASHA Seven Seeds Nutri Bar.",
+    "category": "Seeds & thoughtful gifting",
+    "publishedAt": "2026-10-18T11:25:01+05:30",
+    "updatedAt": "2026-10-18T11:25:01+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "Seven Seeds Nutri Bar",
+      "seed bar ingredients",
+      "nuts and oats",
+      "nutri bar pack sizes",
+      "food gift labels"
+    ],
+    "image": "/products/seven-seeds-nutri-bar.jpg",
+    "imageAlt": "Illustrated ZIVASHA Seven Seeds Nutri Bar container presentation",
+    "imageCaption": "AI-generated product illustration; actual appearance and packaging may vary. Visible seeds are illustrative and do not verify the exact recipe.",
+    "intro": "A seed bar brings several ingredients into a convenient bar format, but its name cannot tell you the whole recipe. ZIVASHA Seven Seeds Nutri Bar is described as a seven-seed blend with oats, dates and nuts. Here is how to choose a pack with the details that matter.",
+    "takeaway": "Read the ingredients and allergens, distinguish pack weight from serving size, and ask for the exact seed list before buying if an ingredient matters to you.",
+    "sections": [
+      {
+        "heading": "Start with the full ingredient list",
+        "paragraphs": [
+          "“Seven seeds” describes the blend, rather than naming each seed or giving its proportion. Ask for the complete list instead of identifying seeds from a product image. The exact seven seeds in ZIVASHA’s bars still need confirmation for your order.",
+          "FSSAI’s labelling rules place ingredients in descending order by weight or volume at manufacture. Reading the list alongside the product description is a more useful comparison than counting how many ingredients appear in the name."
+        ],
+        "sourceIds": [
+          "fssai"
+        ]
+      },
+      {
+        "heading": "Compare nutrition on the same basis",
+        "paragraphs": [
+          "When comparing bars, check whether the nutrition figures refer to 100 g, one bar or a stated serving. Look at energy, protein, total and added sugars, and fat on the same basis. A small serving and a large serving are not directly comparable.",
+          "The word “Nutri” does not supply those numbers. For ZIVASHA’s bars, request the final nutrition declaration; we do not assign protein, fibre or calorie values from the ingredient names alone."
+        ],
+        "sourceIds": [
+          "fssai"
+        ]
+      },
+      {
+        "heading": "Check allergens before gifting",
+        "paragraphs": [
+          "Our bars contain nuts and oats and are not offered as nut-free or gluten-free. NIDDK notes that oats can have cross-contact with gluten-containing grains. If the recipient avoids an ingredient, confirm the complete declaration rather than assuming a seed-based bar suits them."
+        ],
+        "sourceIds": [
+          "niddk"
+        ]
+      },
+      {
+        "heading": "250 g or 500 g: what does the size mean?",
+        "paragraphs": [
+          "For these ZIVASHA containers, 250 g and 500 g mean the total net contents, not the weight of a single bar. Ask for the bar count, storage instructions and best-before details for your order. For gifting enquiries, include the number of packs, delivery pincode and required date."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "fssai",
+        "title": "FSSAI · Labelling and Display Regulations, Version VIII (ingredients, nutrition and allergens)",
+        "url": "https://fssai.gov.in/upload/uploadfiles/files/Comp_Labelling%20Display_Version%20VIII_09_09_2025.pdf"
+      },
+      {
+        "id": "niddk",
+        "title": "NIH/NIDDK · Gluten, emmer wheat and oats",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+      }
+    ],
+    "relatedPath": "/shop/seven-seeds-nutri-bar/",
+    "relatedLabel": "Explore Seven Seeds Nutri Bar"
   }
 ]
