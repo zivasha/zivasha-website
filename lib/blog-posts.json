@@ -75,5 +75,89 @@
     ],
     "relatedPath": "/shop/#hampers",
     "relatedLabel": "Explore dry-fruit gifts"
+  },
+  {
+    "slug": "what-is-khapli-wheat",
+    "title": "What is Khapli wheat? A simple guide to emmer",
+    "description": "Learn what Khapli wheat is, where emmer grows in India, how its husk differs from other wheat, and why Khapli atta and laddus contain gluten.",
+    "category": "Ingredient knowledge",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "khapli wheat",
+      "emmer wheat",
+      "khapli atta",
+      "Indian wheat varieties",
+      "Khapli Laddu"
+    ],
+    "image": "/products/khapli-laddu.jpg",
+    "imageAlt": "Illustrated ZIVASHA Khapli Laddu container presentation",
+    "imageCaption": "AI-generated product illustration; actual appearance and packaging may vary. This image does not identify a farm or batch origin.",
+    "intro": "Khapli wheat appears on atta packs and traditional sweet menus, but what does the name mean? Khapli refers to emmer wheat, also called Triticum dicoccum. Its identity, growing regions and gluten content are useful starting points when choosing Khapli atta or a sweet made with it.",
+    "takeaway": "Khapli is emmer wheat, a hulled grain with a regional farming history. It contains gluten.",
+    "sections": [
+      {
+        "heading": "How is Khapli different from other wheat?",
+        "paragraphs": [
+          "Agharkar Research Institute distinguishes Khapli from common bread wheat and durum wheat in its breeding programme. Emmer has long, slender kernels and is a hulled wheat: its husk remains attached during harvesting and must be removed during processing. The husk should not be confused with the edible grain inside."
+        ],
+        "sourceIds": [
+          "ari",
+          "cereal"
+        ]
+      },
+      {
+        "heading": "Where does Khapli wheat grow in India?",
+        "paragraphs": [
+          "Indian cultivation includes northern Karnataka, southern Maharashtra, coastal Gujarat and parts of Tamil Nadu and Andhra Pradesh. ICAR–IARI describes emmer’s adaptation to marginal and stony soils and notes that the cool, temperate conditions of the Nilgiris suit its cultivation.",
+          "There is no single climate story for every Khapli field. Variety, sowing season, irrigation and local conditions matter. A familiar regional name on a pack is therefore not proof that its grain came from a particular state."
+        ],
+        "sourceIds": [
+          "iari"
+        ]
+      },
+      {
+        "heading": "Is Khapli wheat gluten-free?",
+        "paragraphs": [
+          "No. The US National Institute of Diabetes and Digestive and Kidney Diseases lists emmer among wheat types that naturally contain gluten. Descriptions such as “ancient grain” or “wholegrain” do not make it gluten-free. People with coeliac disease should not treat Khapli atta or Khapli laddus as a gluten-free alternative."
+        ],
+        "sourceIds": [
+          "niddk"
+        ]
+      },
+      {
+        "heading": "What should you check before buying?",
+        "paragraphs": [
+          "Read the full ingredient list, allergen declaration and net weight. A grain’s name alone does not describe the nutritional composition of a finished laddu; the other ingredients and recipe matter too.",
+          "ZIVASHA’s Khapli Laddu contains wheat and gluten. This article explains general growing regions, not the origin of our particular batches. If sourcing matters to your purchase, ask our team for the available batch information before ordering."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "ari",
+        "title": "Agharkar Research Institute · Genetics and Plant Breeding",
+        "url": "https://aripune.res.in/research/genetics-and-plant-breeding/"
+      },
+      {
+        "id": "cereal",
+        "title": "Journal of Cereal Research · Morphological and Seed Quality Characterization of Emmer Wheat",
+        "url": "https://epubs.icar.org.in/index.php/JWR/article/view/133480"
+      },
+      {
+        "id": "iari",
+        "title": "ICAR–IARI · Nilgiri Wheat News, issue 11 (emmer wheat cultivation)",
+        "url": "https://www.iari.res.in/files/Publication/Nilgiri_Wheat_News/NWN_11_23082023.pdf"
+      },
+      {
+        "id": "niddk",
+        "title": "NIH/NIDDK · Eating, Diet & Nutrition for Celiac Disease",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+      }
+    ],
+    "relatedPath": "/shop/khapli-laddu/",
+    "relatedLabel": "Explore Khapli Laddu",
+    "publishedAt": "2026-10-18T10:23:00+05:30",
+    "updatedAt": "2026-10-18T10:23:00+05:30"
   }
 ]
