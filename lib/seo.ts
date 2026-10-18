@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { hashedPath } from '@/lib/images';
 import type { Product } from '@/lib/products';
 import { site } from '@/lib/site';
+import { productPath } from '@/lib/product-details';
 
 /**
  * SEO helpers — one place for the Open Graph and JSON-LD shapes every page
@@ -52,6 +53,8 @@ export function productListJsonLd(
       position: i + 1,
       item: {
         '@type': 'Product',
+        '@id': `${site.domain}${productPath(p.slug)}#product`,
+        url: `${site.domain}${productPath(p.slug)}`,
         name: p.name,
         description: p.desc,
         ...(image ? { image: `${site.domain}${image}` } : {}),
