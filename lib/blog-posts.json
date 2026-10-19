@@ -304,5 +304,84 @@
     ],
     "relatedPath": "/shop/seven-seeds-nutri-bar/",
     "relatedLabel": "Explore Seven Seeds Nutri Bar"
+  },
+  {
+    "slug": "where-walnuts-grow-in-india",
+    "title": "Where do walnuts grow in India? Why hills suit akhrot",
+    "description": "Explore India's walnut-growing regions, from Jammu and Kashmir to Arunachal Pradesh, and learn why winter chill, soil and spring weather matter for akhrot.",
+    "category": "Origins & growing regions",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "walnuts grown in India",
+      "akhrot",
+      "Kashmir walnuts",
+      "Himalayan walnut cultivation",
+      "dry-fruit gifts"
+    ],
+    "image": "/products/four-jar-festive-gift.jpg",
+    "imageAlt": "ZIVASHA four-jar dry-fruit gift presentation used as gifting context",
+    "imageCaption": "ZIVASHA gift presentation, shown for context. Background and branding edited; the image does not identify walnut contents, a farm or batch origin. Confirm the contents of your selected hamper.",
+    "intro": "Walnuts grown in India have a strong connection with the Himalayas. Known as akhrot in Hindi, the walnut is a temperate nut crop. Its growing regions tell a story about winter cold, suitable soil and the timing of spring weather—not simply how high a place is.",
+    "takeaway": "India's walnut belt is centred on Jammu and Kashmir, with cultivation in Uttarakhand, Himachal Pradesh and Arunachal Pradesh. Cold winters help, but late spring frost can harm flowers.",
+    "sections": [
+      {
+        "heading": "India's main walnut-growing regions",
+        "paragraphs": [
+          "APEDA identifies Jammu and Kashmir, Uttarakhand, Himachal Pradesh and Arunachal Pradesh as the main Indian growing regions. Jammu and Kashmir has the largest share of the country's walnut area and production. Kashmir walnuts are therefore a familiar part of the crop's Indian story, but they are not its only regional identity."
+        ],
+        "sourceIds": [
+          "apeda"
+        ]
+      },
+      {
+        "heading": "Why do Himalayan conditions suit akhrot?",
+        "paragraphs": [
+          "The National Horticulture Board's walnut guidance specifies a temperate climate and a chilling period of roughly 400–1,000 hours. This winter requirement helps explain the crop's association with cool hill regions. The guidance is a planning range, not a guarantee that every variety will thrive at every hill site.",
+          "More cold is not always better. A 2025 Indian Farming article explains that late spring frost can damage walnut flowers and sharply reduce yields. Winter chill and a damaging frost during flowering are different conditions: their timing matters."
+        ],
+        "sourceIds": [
+          "nhb",
+          "icar"
+        ]
+      },
+      {
+        "heading": "Soil and water matter too",
+        "paragraphs": [
+          "NHB lists loamy to clay-loam soils and a pH of 6–7 in its walnut guidance. It also recommends well-drained orchard sites to help manage root and crown rot, and identifies fruit development as a critical stage for water supply. A cold location alone is therefore not enough; the orchard needs suitable soil, drainage and water."
+        ],
+        "sourceIds": [
+          "nhb"
+        ]
+      },
+      {
+        "heading": "Growing regions are not proof of a pack's origin",
+        "paragraphs": [
+          "A general guide to Indian agriculture cannot establish where a particular retail batch was grown. If origin matters to your purchase, request batch-specific sourcing information instead of relying on a regional name or photograph.",
+          "For a ZIVASHA dry-fruit gift, confirm the selected nuts and net weights before ordering; do not assume every hamper includes walnuts. Explore our gift collection and ask the team about the contents of your preferred pack."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "apeda",
+        "title": "APEDA · Walnuts: India's growing regions",
+        "url": "https://apeda.gov.in/Walnuts"
+      },
+      {
+        "id": "nhb",
+        "title": "National Horticulture Board · Walnut project guidance (pp. 47 and 83)",
+        "url": "https://nhb.gov.in/NHBDPR/Walnut_DPR.pdf"
+      },
+      {
+        "id": "icar",
+        "title": "ICAR · Indian Farming, June 2025: walnut cultivation and spring-frost risk (p. 8)",
+        "url": "https://epubs.icar.org.in/index.php/IndFarm/article/download/156186/63336/498040"
+      }
+    ],
+    "relatedPath": "/shop/#hampers",
+    "relatedLabel": "Explore dry-fruit gifts",
+    "publishedAt": "2026-10-19T10:00:21+05:30",
+    "updatedAt": "2026-10-19T10:00:21+05:30"
   }
 ]
