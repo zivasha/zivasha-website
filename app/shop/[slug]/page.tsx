@@ -68,6 +68,13 @@ export default async function ProductPage({params}: Props) {
         </figure>
         <div className="product-detail-copy"><p className="eyebrow">{productCategory(product)}</p><h1>{product.name}</h1><p className="product-detail-weight">{product.weight}</p><p>{detail.intro}</p>
           {detail.highlights && <dl className="product-highlights">{detail.highlights.map(item=><div key={item.label}><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl>}
+          {detail.keyIngredients && <section className="product-ingredients" id="ingredients" aria-labelledby="ingredients-heading">
+            <h2 id="ingredients-heading">Key ingredients</h2>
+            <ul>{detail.keyIngredients.map(ingredient=><li key={ingredient}>{ingredient}</li>)}</ul>
+            <p className="product-ingredient-allergens"><strong>Allergen information:</strong> {detail.note}</p>
+            <p className="product-ingredient-note">This is a selection of key ingredients, not the complete ingredient declaration.</p>
+            <a href={wa(`Hi ZIVASHA! Please share the complete ingredients and allergen information for ${product.name}.`, `WEB-ingredients-${slug}`)} target="_blank" rel="noopener noreferrer">Ask for the full ingredient list ↗</a>
+          </section>}
           <AddToCart product={product}/>
           <p className="product-order-note">Add to cart to request your order. Availability, final taxes and delivery are confirmed before payment.</p>
           <a className="product-enquiry" href={wa(`Hi ZIVASHA! Please quote a bulk price for ${product.name} (${product.weight}). Quantity: ___ | Delivery city/pincode: ___ | Required date: ___.`, `WEB-product-${slug}`)} target="_blank" rel="noopener noreferrer">Enquire for bulk pricing ↗</a>
