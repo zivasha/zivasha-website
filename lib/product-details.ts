@@ -1,6 +1,6 @@
 import { type Product } from './products';
 
-type Detail = { title: string; intro: string; packaging: string; ingredients: string; note: string; description?: string; highlights?: {label: string; value: string}[] };
+type Detail = { title: string; intro: string; packaging: string; ingredients: string; note: string; keyIngredients?: string[]; description?: string; highlights?: {label: string; value: string}[] };
 
 /** Approved catalogue facts only. Unconfirmed recipe, stock and shelf-life details stay explicit. */
 export const productDetails: Record<string, Detail> = {
@@ -53,6 +53,7 @@ export const productDetails: Record<string, Detail> = {
     highlights: [{label: 'The mithai', value: 'Edible gond, nuts & coconut'}, {label: 'Sweetened with', value: 'Jaggery'}, {label: 'Choose your pack', value: '250 g or 500 g container'}],
     packaging: '250 g and 500 g containers. The 500 g price is listed; the 250 g pack is quoted on request.',
     ingredients: 'Key ingredients: edible gond, nuts, coconut and jaggery. This is a product overview, not the complete ingredient declaration.',
+    keyIngredients: ['Edible gond', 'Nuts', 'Coconut', 'Jaggery'],
     note: 'Contains nuts. Ask us to confirm the complete ingredient list and other allergens before ordering.',
   },
   'khapli-laddu': {
@@ -62,6 +63,7 @@ export const productDetails: Record<string, Detail> = {
     highlights: [{label: 'The grain', value: 'Khapli / emmer wheat'}, {label: 'Also made with', value: 'Nuts, ghee & jaggery'}, {label: 'Choose your pack', value: '250 g or 500 g container'}],
     packaging: '250 g and 500 g containers. Choose the pack size before adding it to your cart.',
     ingredients: 'Key ingredients: khapli wheat, nuts, ghee and jaggery. Confirm the complete ingredient declaration for your order.',
+    keyIngredients: ['Khapli wheat', 'Nuts', 'Ghee', 'Jaggery'],
     note: 'Contains wheat (gluten), nuts and milk ingredients. Khapli wheat is not gluten-free.',
   },
   'seven-seeds-nutri-bar': {
@@ -71,6 +73,7 @@ export const productDetails: Record<string, Detail> = {
     highlights: [{label: 'The format', value: 'Seed, oat, date & nut bars'}, {label: 'Pack sizes', value: '250 g or 500 g container'}, {label: 'Weight means', value: 'Total contents, not one bar'}],
     packaging: '250 g and 500 g containers. The listed pack weight is the total contents, not the weight of one bar.',
     ingredients: 'Key ingredients: seven seeds, oats, dates and nuts. Ask us for the complete seed and ingredient list for your order.',
+    keyIngredients: ['Seven-seed blend', 'Oats', 'Dates', 'Nuts'],
     note: 'Contains nuts and oats. No gluten-free claim is made; confirm the full allergen information before ordering.',
   },
   'six-tin-gift': {
@@ -113,6 +116,7 @@ export const productDetails: Record<string, Detail> = {
     intro: 'Seven Seeds Nutri Bars in a compact 250 g jar for gifting or sharing. Ask for the current quotation and available jar presentation before placing an order.',
     packaging: '250 g jar. The image illustrates the container range; the final jar and label are confirmed on enquiry.',
     ingredients: 'Key ingredients: seven seeds, oats, dates and nuts. Confirm the complete ingredient declaration for your order.',
+    keyIngredients: ['Seven-seed blend', 'Oats', 'Dates', 'Nuts'],
     note: 'Contains nuts and oats. Confirm the full allergen information; no gluten-free claim is made.',
   },
   'nutty-box': {
