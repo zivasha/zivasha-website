@@ -52,7 +52,7 @@ export const products: Product[] = [
     "slug": "gond-laddu",
     "image": "gond-laddu",
     "name": "Gond Laddu",
-    "desc": "Made with gond, nuts, coconut and jaggery. Choose a container for everyday moments or one made for sharing.",
+    "desc": "Edible gond, nuts and coconut, sweetened with jaggery and khajoor (dates). No white sugar added. For everyday snack moments or sharing.",
     "weight": "250 g or 500 g container",
     "kind": "mithai"
   },
@@ -60,7 +60,7 @@ export const products: Product[] = [
     "slug": "khapli-laddu",
     "image": "khapli-laddu",
     "name": "Khapli Laddu",
-    "desc": "Made with khapli wheat, nuts, ghee and jaggery.",
+    "desc": "Traditional khapli wheat, nut and ghee laddus, sweetened with jaggery. No white sugar added. A flavour to enjoy with your tea break.",
     "weight": "250 g or 500 g container",
     "kind": "mithai",
     "allergens": "Contains wheat (gluten), nuts and milk ingredients."
@@ -69,7 +69,7 @@ export const products: Product[] = [
     "slug": "seven-seeds-nutri-bar",
     "image": "seven-seeds-nutri-bar",
     "name": "Seven Seeds Nutri Bar",
-    "desc": "Made with seven seeds, oats, dates and nuts. A seed-filled treat for gifting or sharing.",
+    "desc": "Seven seeds, oats and nuts, sweetened with jaggery and khajoor (dates). No white sugar added. Explore an everyday snack or tiffin option after checking allergens.",
     "weight": "250 g or 500 g container",
     "kind": "nutribar"
   },
