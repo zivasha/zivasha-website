@@ -30,11 +30,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
-    default: 'ZIVASHA — Dry-fruit Gifts, Gond & Khapli Laddu, Nutri Bars',
+    default: 'ZIVASHA — Everyday Laddus, Nutri Bars & Dry-Fruit Gifts',
     template: '%s | Zivasha',
   },
   description:
-    'Thoughtful dry-fruit gift hampers, Gond Laddu, Khapli Laddu and Seven Seeds Nutri Bar. Add products to your cart, submit an order request and pay your confirmed total through Razorpay.',
+    'Gond Laddu, Khapli Laddu and Seven Seeds Nutri Bar for everyday snack moments. Sweetened with jaggery, no white sugar added. Explore ingredients, pack sizes and dry-fruit gifts.',
   // './' resolves per-route against metadataBase → every page gets its own canonical + og:url
   alternates: { canonical: './' },
   openGraph: {
@@ -81,7 +81,7 @@ const jsonLd = {
   areaServed: ['Delhi', 'Gurgaon', 'Noida', 'Ghaziabad', 'Faridabad'],
   ...(sameAs.length ? { sameAs } : {}),
   description:
-    'Premium dry fruits, gift hampers, gond laddus and seed snack bars. Corporate and festive gifting, Delhi NCR.',
+    'Traditional Gond and Khapli laddus, Seven Seeds Nutri Bar and dry-fruit gifts for everyday moments and occasions. A brand of Phoeniix AgriNexa Ventures, with a Delhi NCR delivery focus.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

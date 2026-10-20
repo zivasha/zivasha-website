@@ -34,6 +34,14 @@ h1,h2,h3{font-family:var(--font-serif),Georgia,serif;font-weight:500;line-height
 .boutique-lede{max-width:36ch;font-size:15px;color:var(--muted);margin:0 0 28px}
 .boutique-copy .btn span{padding-left:22px}
 .boutique-caption{color:var(--muted);font-size:12px;margin:18px 0 0}
+.sweetener-line{color:var(--burgundy);font-weight:600;margin:0 0 24px;line-height:1.65}
+.everyday-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px}
+.everyday-grid article{padding:30px;background:var(--paper);border:1px solid var(--line);min-width:0;scroll-margin-top:120px}
+.everyday-grid h2,.everyday-grid h3{font-size:32px;color:var(--burgundy);margin:12px 0 20px}
+.everyday-grid p,.everyday-grid li{font-size:14px;line-height:1.85}
+.everyday-grid ul{padding-left:20px}.everyday-grid li+li{margin-top:12px}
+.everyday-grid .text-link{white-space:normal}
+@media(max-width:700px){.everyday-grid{grid-template-columns:1fr;gap:22px}.everyday-grid article{padding:24px}.everyday-grid h2,.everyday-grid h3{font-size:29px}}
 .boutique-figure{margin:0;min-width:0}
 .boutique-photo{position:relative;aspect-ratio:3/2;background:#eee6d8}
 .boutique-photo img{object-fit:contain}

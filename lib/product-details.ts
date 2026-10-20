@@ -2,7 +2,7 @@ import { type Product } from './products';
 
 type Detail = { title: string; intro: string; packaging: string; ingredients: string; note: string; keyIngredients?: string[]; description?: string; highlights?: {label: string; value: string}[] };
 
-/** Approved catalogue facts only. Unconfirmed recipe, stock and shelf-life details stay explicit. */
+/** Catalogue facts plus owner-confirmed sweeteners (20 October 2026). Full recipes, stock and shelf life remain subject to confirmation. */
 export const productDetails: Record<string, Detail> = {
   'festive-potli-basket': {
     title: 'Dry-Fruit Potli Gift Basket',
@@ -48,33 +48,33 @@ export const productDetails: Record<string, Detail> = {
   },
   'gond-laddu': {
     title: 'Gond Laddu — 250 g & 500 g Containers',
-    description: 'Explore ZIVASHA Gond Laddu with edible gond, nuts, coconut and jaggery. Compare 250 g and 500 g containers, ingredient details and bulk gifting options.',
-    intro: 'ZIVASHA Gond Laddu brings together edible gond, nuts, coconut and jaggery. Choose a 250 g or 500 g container for sharing at home or including in a gift selection.',
-    highlights: [{label: 'The mithai', value: 'Edible gond, nuts & coconut'}, {label: 'Sweetened with', value: 'Jaggery'}, {label: 'Choose your pack', value: '250 g or 500 g container'}],
+    description: 'ZIVASHA Gond Laddu with nuts, coconut, jaggery and khajoor (dates) for everyday snack moments. No white sugar added. Explore 250 g and 500 g packs and allergens.',
+    intro: 'ZIVASHA Gond Laddu brings together edible gond, nuts and coconut, sweetened with jaggery and khajoor (dates). No white sugar added. Choose a 250 g or 500 g container for a tea break, a family snack or a thoughtful gift.',
+    highlights: [{label: 'The mithai', value: 'Edible gond, nuts & coconut'}, {label: 'Sweetened with', value: 'Jaggery & khajoor (dates)'}, {label: 'Recipe choice', value: 'No white sugar added'}, {label: 'Choose your pack', value: '250 g or 500 g container'}],
     packaging: '250 g and 500 g containers. The 500 g price is listed; the 250 g pack is quoted on request.',
-    ingredients: 'Key ingredients: edible gond, nuts, coconut and jaggery. This is a product overview, not the complete ingredient declaration.',
-    keyIngredients: ['Edible gond', 'Nuts', 'Coconut', 'Jaggery'],
-    note: 'Contains nuts. Ask us to confirm the complete ingredient list and other allergens before ordering.',
+    ingredients: 'Key ingredients: edible gond, nuts, coconut, jaggery and khajoor (dates). This is a product overview, not the complete ingredient declaration.',
+    keyIngredients: ['Edible gond', 'Nuts', 'Coconut', 'Jaggery', 'Khajoor (dates)'],
+    note: 'Contains nuts. Confirm the complete ingredient list and other allergens before ordering. Jaggery and dates contribute sugar; this product is not sugar-free.',
   },
   'khapli-laddu': {
     title: 'Khapli Wheat Laddu — 250 g & 500 g Containers',
-    description: 'Discover ZIVASHA Khapli Laddu with emmer wheat, nuts, ghee and jaggery. Choose 250 g or 500 g containers and explore ingredients, allergens and gifting.',
-    intro: 'ZIVASHA Khapli Laddu is a wheat-based mithai made with khapli, nuts, ghee and jaggery. Khapli is emmer wheat. Choose a 250 g or 500 g container for sharing or enquire about a bulk gift order.',
-    highlights: [{label: 'The grain', value: 'Khapli / emmer wheat'}, {label: 'Also made with', value: 'Nuts, ghee & jaggery'}, {label: 'Choose your pack', value: '250 g or 500 g container'}],
+    description: 'Discover ZIVASHA Khapli Laddu with emmer wheat, nuts, ghee and jaggery for everyday tea breaks. No white sugar added. Contains wheat/gluten, nuts and milk.',
+    intro: 'ZIVASHA Khapli Laddu is a traditional mithai with emmer wheat, nuts and ghee. Sweetened with jaggery. No white sugar added. Choose a 250 g or 500 g container for an everyday tea break, family snack or gift.',
+    highlights: [{label: 'The grain', value: 'Khapli / emmer wheat'}, {label: 'Sweetened with', value: 'Jaggery'}, {label: 'Recipe choice', value: 'No white sugar added'}, {label: 'Choose your pack', value: '250 g or 500 g container'}],
     packaging: '250 g and 500 g containers. Choose the pack size before adding it to your cart.',
     ingredients: 'Key ingredients: khapli wheat, nuts, ghee and jaggery. Confirm the complete ingredient declaration for your order.',
     keyIngredients: ['Khapli wheat', 'Nuts', 'Ghee', 'Jaggery'],
-    note: 'Contains wheat (gluten), nuts and milk ingredients. Khapli wheat is not gluten-free.',
+    note: 'Contains wheat (gluten), nuts and milk ingredients. Khapli wheat is not gluten-free. Jaggery contributes sugar; this product is not sugar-free.',
   },
   'seven-seeds-nutri-bar': {
     title: 'Seven Seeds Nutri Bar — 250 g & 500 g Containers',
-    description: 'Explore ZIVASHA Seven Seeds Nutri Bar with oats, dates and nuts in 250 g and 500 g containers. Read pack details, ingredient questions and gifting options.',
-    intro: 'ZIVASHA Seven Seeds Nutri Bar combines a seven-seed blend with oats, dates and nuts in a bar format. Choose a 250 g or 500 g container for sharing, or enquire about including the bars in a gift assortment.',
-    highlights: [{label: 'The format', value: 'Seed, oat, date & nut bars'}, {label: 'Pack sizes', value: '250 g or 500 g container'}, {label: 'Weight means', value: 'Total contents, not one bar'}],
+    description: 'ZIVASHA Seven Seeds Nutri Bar for everyday snack and tiffin planning. Sweetened with jaggery and khajoor (dates), no white sugar added. Read ingredients and allergens.',
+    intro: 'ZIVASHA Seven Seeds Nutri Bar combines a seven-seed blend, oats and nuts, sweetened with jaggery and khajoor (dates). No white sugar added. Explore a portion for your own snack break or for a child’s tiffin after checking ingredients, school rules and suitability.',
+    highlights: [{label: 'Sweetened with', value: 'Jaggery & khajoor (dates)'}, {label: 'Recipe choice', value: 'No white sugar added'}, {label: 'Pack sizes', value: '250 g or 500 g container'}, {label: 'Weight means', value: 'Total contents, not one bar'}],
     packaging: '250 g and 500 g containers. The listed pack weight is the total contents, not the weight of one bar.',
-    ingredients: 'Key ingredients: seven seeds, oats, dates and nuts. Ask us for the complete seed and ingredient list for your order.',
-    keyIngredients: ['Seven-seed blend', 'Oats', 'Dates', 'Nuts'],
-    note: 'Contains nuts and oats. No gluten-free claim is made; confirm the full allergen information before ordering.',
+    ingredients: 'Key ingredients: seven seeds, oats, khajoor (dates), nuts and jaggery. Ask us for the complete seed and ingredient list for your order.',
+    keyIngredients: ['Seven-seed blend', 'Oats', 'Khajoor (dates)', 'Nuts', 'Jaggery'],
+    note: 'Contains nuts and oats. Confirm the full allergen information; these bars are not sold as gluten-free. Jaggery and dates contribute sugar; this product is not sugar-free.',
   },
   'six-tin-gift': {
     title: 'Six-Tin Dry-Fruit Gift Box',
@@ -94,7 +94,7 @@ export const productDetails: Record<string, Detail> = {
     title: 'Festive Quartet — Four 100 g Gift Pouches',
     intro: 'Four 100 g standing pouches with a greeting card make up this 400 g gift format. Ask about an assortment of dry-fruit laddus, Gond laddus and Seven Seeds Nutri Bars.',
     packaging: 'Four standing pouches, 100 g each, with a greeting card. Product selection and final presentation are confirmed in the quotation.',
-    ingredients: 'Choose from the stated laddu and nutri-bar options; the final assortment determines the ingredient list.',
+    ingredients: 'Choose from the stated laddu and nutri-bar options. Dry-fruit laddu contains khajoor (dates); ask for the complete ingredients of each selected product.',
     note: 'Confirm the complete ingredients and allergens for each chosen product before payment.',
   },
   'diwali-moments': {
@@ -108,22 +108,22 @@ export const productDetails: Record<string, Detail> = {
     title: 'Festive Mini — 100 g Pouch',
     intro: 'Choose a resealable 100 g pouch of dry-fruit laddu, Gond laddu or Seven Seeds Nutri Bar. Outer gift wrapping can be discussed when requesting your quotation.',
     packaging: 'One 100 g resealable pouch. Product choice and any outer wrapping are confirmed on enquiry.',
-    ingredients: 'One chosen laddu or nutri-bar option per pouch. Ask for the full ingredient details of your selection.',
+    ingredients: 'One chosen laddu or nutri-bar option per pouch. Dry-fruit laddu contains khajoor (dates). Ask for the full ingredient details of your selection.',
     note: 'Allergen information varies by product. Please confirm your chosen option before ordering.',
   },
   'nutri-jar': {
     title: 'Nutri Jar — Seven Seeds Nutri Bars, 250 g',
-    intro: 'Seven Seeds Nutri Bars in a compact 250 g jar for gifting or sharing. Ask for the current quotation and available jar presentation before placing an order.',
+    intro: 'Seven Seeds Nutri Bars in a compact 250 g jar for everyday snack moments or gifting. Sweetened with jaggery and khajoor (dates), with no white sugar added. Ask for the current quotation and jar presentation.',
     packaging: '250 g jar. The image illustrates the container range; the final jar and label are confirmed on enquiry.',
-    ingredients: 'Key ingredients: seven seeds, oats, dates and nuts. Confirm the complete ingredient declaration for your order.',
-    keyIngredients: ['Seven-seed blend', 'Oats', 'Dates', 'Nuts'],
-    note: 'Contains nuts and oats. Confirm the full allergen information; no gluten-free claim is made.',
+    ingredients: 'Key ingredients: seven seeds, oats, khajoor (dates), nuts and jaggery. Confirm the complete ingredient declaration for your order.',
+    keyIngredients: ['Seven-seed blend', 'Oats', 'Khajoor (dates)', 'Nuts', 'Jaggery'],
+    note: 'Contains nuts and oats. Confirm the full allergen information; no gluten-free claim is made. Jaggery and dates contribute sugar.',
   },
   'nutty-box': {
     title: 'The Nutty Box — 500 g Laddu & Nutri-Bar Assortment',
     intro: 'A 500 g festive assortment of dry-fruit laddus and Seven Seeds Nutri Bars. We confirm the split between products, the packaging and the quotation after receiving your preferences.',
     packaging: '500 g total assortment. Final product quantities and gift packaging are confirmed on enquiry.',
-    ingredients: 'Dry-fruit laddus and Seven Seeds Nutri Bars in the agreed selection.',
+    ingredients: 'Dry-fruit laddus and Seven Seeds Nutri Bars in the agreed selection. Both contain khajoor (dates); confirm the full ingredient lists for this assortment.',
     note: 'Contains nuts; other allergens depend on the final selection. Ask for the full ingredient details.',
   },
 };
@@ -133,7 +133,7 @@ export const productCategory = (p: Product) => p.kind === 'hamper' ? 'Dry-fruit 
 
 const ingredientFaqs: Record<string, {q: string; a: string}[]> = {
   'gond-laddu': [
-    {q: 'What is in ZIVASHA Gond Laddu?', a: 'The key ingredients are edible gond, nuts, coconut and jaggery. This overview is not the complete recipe or label declaration. Ask for the full ingredients and allergen information for your order.'},
+    {q: 'What is in ZIVASHA Gond Laddu?', a: 'The key ingredients are edible gond, nuts, coconut, jaggery and khajoor (dates). This overview is not the complete recipe or label declaration. Ask for the full ingredients and allergen information for your order.'},
     {q: 'Is Gond Laddu the same as Khapli Laddu?', a: 'They are different products. Edible gond is a key ingredient in our Gond Laddu; khapli wheat is a key ingredient in our Khapli Laddu. Both include nuts and jaggery. Khapli Laddu also contains ghee and wheat gluten.'},
     {q: 'Does the 500 g container contain a fixed number of laddus?', a: '500 g is the total net weight of the contents. We do not promise a fixed piece count. If you need one laddu per guest or an exact number in each gift, ask us to confirm the piece count before ordering.'},
   ],
@@ -143,7 +143,9 @@ const ingredientFaqs: Record<string, {q: string; a: string}[]> = {
     {q: 'Which size should I choose for gifting?', a: 'Both 250 g and 500 g containers are offered. Choose by the quantity of mithai you want to give; the pack weight is not a guaranteed piece count. For a larger order, share the number of gifts, delivery pincode and required date for a quotation.'},
   ],
   'seven-seeds-nutri-bar': [
-    {q: 'Which seeds and ingredients are in the Nutri Bar?', a: 'The confirmed overview is a seven-seed blend with oats, dates and nuts. The exact seven seeds and complete ingredient declaration must be confirmed for your order. Please ask before purchasing if a particular seed or ingredient matters to you.'},
+    {q: 'Can I pack these Nutri Bars in a child’s tiffin?', a: 'They are a snack option to consider alongside the usual tiffin, after checking the full ingredients, school allergy rules and an appropriate portion and texture for your child. They contain nuts and oats; individual suitability must be checked.'},
+    {q: 'Are these Nutri Bars a supplement for women over 40?', a: 'They are an ordinary food and can be chosen as a snack alongside a varied diet. They are not a nutritional supplement, meal replacement or substitute for prescribed supplements. Choose according to your dietary needs.'},
+    {q: 'Which seeds and ingredients are in the Nutri Bar?', a: 'The confirmed overview is a seven-seed blend with oats, khajoor (dates), nuts and jaggery. The exact seven seeds and complete ingredient declaration must be confirmed for your order. Please ask before purchasing if a particular seed or ingredient matters to you.'},
     {q: 'Is 250 g the weight of one Nutri Bar?', a: 'No. 250 g and 500 g refer to the total contents of the container. The number of bars and the weight of an individual bar are confirmed on enquiry.'},
     {q: 'Are the bars gluten-free or nut-free?', a: 'The bars contain nuts and oats, and we do not offer them as gluten-free or nut-free. Ask for the complete allergen declaration before placing your order.'},
   ],
@@ -157,6 +159,7 @@ export function productFaqs(p: Product) {
       : 'Please confirm the deadline for your selected nutri-bar or mixed gift order with ZIVASHA. Availability and delivery are confirmed before payment.';
   return [
     ...(ingredientFaqs[p.slug] ?? []),
+    ...(['gond-laddu', 'khapli-laddu', 'seven-seeds-nutri-bar', 'nutri-jar'].includes(p.slug) ? [{q: 'What does no white sugar added mean?', a: p.slug === 'khapli-laddu' ? 'Khapli Laddu is sweetened with jaggery, with no white sugar added. Jaggery contributes sugar, so this is not a sugar-free or no-added-sugar product.' : 'This product is sweetened with jaggery and khajoor (dates), with no white sugar added. It still contains sugar and is not a sugar-free product.'}] : []),
     {q: 'How do I order this product?', a: 'Choose your pack and quantity, add it to the cart and submit an order request. ZIVASHA confirms availability, GST, delivery charges and the final total before sending a secure Razorpay payment link.'},
     {q: 'Can I order in bulk?', a: 'Yes, you can request a bulk quotation. Share the product, number of packs, delivery city or pincode and required date. Any discount or custom packaging is confirmed individually.'},
     {q: 'Where is delivery available?', a: 'Our delivery focus is Delhi NCR. For other locations, ask us to confirm delivery feasibility, charges and the required date before payment.'},
