@@ -383,5 +383,92 @@
     "relatedLabel": "Explore dry-fruit gifts",
     "publishedAt": "2026-10-19T10:00:21+05:30",
     "updatedAt": "2026-10-19T10:00:21+05:30"
+  },
+  {
+    "slug": "where-sesame-grows-in-india",
+    "title": "Where does sesame grow in India? A guide to til",
+    "description": "Discover where sesame grows in India, why warm weather and well-drained soil suit til, and how its growing season varies across regions.",
+    "category": "Origins & growing regions",
+    "publishedAt": "2026-10-20T18:40:37+05:30",
+    "updatedAt": "2026-10-20T18:40:37+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "where sesame grows in India",
+      "til",
+      "gingelly",
+      "sesame growing regions",
+      "seed-based gifts"
+    ],
+    "image": "/products/seven-seeds-nutri-bar.jpg",
+    "imageAlt": "Illustrated ZIVASHA Seven Seeds Nutri Bar presentation, shown as seed-based gifting context",
+    "imageCaption": "AI-generated product illustration; actual appearance and packaging may vary. Shown as seed-based gifting context, not as proof of sesame content, a farm or batch origin. Confirm the complete ingredient list.",
+    "intro": "Sesame, commonly called til or gingelly, is a tiny seed with a wide farming footprint. Where sesame grows in India depends on warmth, seasonal moisture and local cropping practices. Its story stretches across several regions rather than belonging to one state or one sowing season.",
+    "takeaway": "Sesame grows across many Indian regions. Warm conditions suit it, while drainage and the timing of water supply matter as much as rainfall.",
+    "sections": [
+      {
+        "heading": "Where does sesame grow in India?",
+        "paragraphs": [
+          "ICAR's sesame variety-testing zones illustrate this breadth. Its kharif zones include Rajasthan, Punjab and Haryana; Madhya Pradesh and eastern states such as Bihar, West Bengal and Odisha; Gujarat, Maharashtra and Telangana; and southern states including Karnataka, Tamil Nadu, Kerala and Andhra Pradesh.",
+          "These are agricultural testing regions, not a ranking of today's largest producers. ICAR also separates summer and rabi sesame zones, showing why a single national crop calendar would be misleading."
+        ],
+        "sourceIds": [
+          "icar"
+        ]
+      },
+      {
+        "heading": "Why warmth and well-drained soil suit til",
+        "paragraphs": [
+          "Tamil Nadu Agricultural University describes sesame as a tropical crop and gives an optimum temperature range of 25–35°C. Warm growing conditions help explain its suitability across many Indian farming regions.",
+          "Drainage is equally important. NC State Extension's sesame research guidance warns that the crop is sensitive to waterlogging. A field that stays saturated after rain can be unsuitable even when its temperature is favourable."
+        ],
+        "sourceIds": [
+          "tnau-climate",
+          "ncstate"
+        ]
+      },
+      {
+        "heading": "The growing season changes with location",
+        "paragraphs": [
+          "Tamil Nadu offers a useful example: TNAU lists February–March sowing for irrigated sesame in Coimbatore, Tiruppur and Erode, alongside June–July sowing for rainfed crops in the western zone. Local rainfall, irrigation and variety influence the choice.",
+          "Sesame's drought tolerance does not mean it needs no water. TNAU identifies flowering and pod setting among the important stages for irrigation. The timing of moisture matters, rather than simply the year's total rainfall."
+        ],
+        "sourceIds": [
+          "tnau-climate",
+          "tnau-water"
+        ]
+      },
+      {
+        "heading": "From growing regions to a food gift",
+        "paragraphs": [
+          "This guide describes sesame cultivation, not the sourcing or recipe of a particular ZIVASHA batch. For seed-based gifts, check the complete ingredients, allergens and net weight; a product name or illustration cannot confirm every seed used.",
+          "Explore ZIVASHA's Seven Seeds Nutri Bar page for pack information, and ask our team for the details relevant to your chosen gift."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "icar",
+        "title": "ICAR · Guidelines for Testing Crop Varieties (2015), sesame zones, p. 60",
+        "url": "https://icar.org.in/sites/default/files/Circulars/TESTINGCROPVARIETIESFG-2016_2.pdf"
+      },
+      {
+        "id": "tnau-climate",
+        "title": "TNAU Agritech · Sesame climate, seasons and varieties",
+        "url": "https://agritech.tnau.ac.in/agriculture/oilseeds_cropimprovement.html"
+      },
+      {
+        "id": "ncstate",
+        "title": "NC State Extension · Sesame Production Fact Sheet: site selection",
+        "url": "https://content.ces.ncsu.edu/sesame-production-fact-sheet"
+      },
+      {
+        "id": "tnau-water",
+        "title": "TNAU Agritech · Sesame irrigation management",
+        "url": "https://agritech.tnau.ac.in/agriculture/oilseeds_cropproduction_irrigation.html"
+      }
+    ],
+    "relatedPath": "/shop/seven-seeds-nutri-bar/",
+    "relatedLabel": "Explore Seven Seeds Nutri Bar"
   }
 ]
