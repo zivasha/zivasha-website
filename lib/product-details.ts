@@ -1,4 +1,5 @@
 import { type Product } from './products';
+import {site} from './site';
 
 type Detail = { title: string; intro: string; packaging: string; ingredients: string; note: string; keyIngredients?: string[]; description?: string; highlights?: {label: string; value: string}[] };
 
@@ -153,7 +154,7 @@ const ingredientFaqs: Record<string, {q: string; a: string}[]> = {
 
 export function productFaqs(p: Product) {
   const answer = p.kind === 'mithai'
-    ? 'Mithai orders for this Diwali close on 20 October 2026 and reopen after Diwali. The reopening date is not yet confirmed.'
+    ? `${site.mithaiOrderNotice} The reopening date is not yet confirmed.`
     : p.kind === 'hamper' || p.slug === 'six-tin-gift'
       ? 'Dry-fruit-only hamper enquiries remain open, including last-minute festive requests, subject to stock, packaging availability and delivery confirmation.'
       : 'Please confirm the deadline for your selected nutri-bar or mixed gift order with ZIVASHA. Availability and delivery are confirmed before payment.';
