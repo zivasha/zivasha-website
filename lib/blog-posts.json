@@ -470,5 +470,82 @@
     ],
     "relatedPath": "/shop/seven-seeds-nutri-bar/",
     "relatedLabel": "Explore Seven Seeds Nutri Bar"
+  },
+  {
+    "slug": "how-to-choose-dry-fruit-gift-hamper",
+    "title": "How to choose a dry-fruit gift hamper for Diwali",
+    "description": "Choose a dry-fruit gift hamper by its contents, net food weight, allergens and delivery details, with practical examples for family and corporate gifting.",
+    "category": "Thoughtful gifting",
+    "publishedAt": "2026-10-21T10:11:00+05:30",
+    "updatedAt": "2026-10-21T10:11:00+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "dry-fruit gift hamper",
+      "Diwali dry-fruit gifts",
+      "corporate gifting Delhi NCR",
+      "gift hamper contents",
+      "four-jar dry-fruit gift"
+    ],
+    "image": "/products/four-jar-festive-gift.jpg",
+    "imageAlt": "ZIVASHA four-jar dry-fruit gift in an ornate presentation box",
+    "imageCaption": "Approved product-photo-based gift presentation. Background and branding edited; confirm the available design and final contents. This image does not establish batch origin.",
+    "intro": "Choosing a dry-fruit gift hamper becomes easier when you compare what the recipient will actually receive. For a family visit, a team gift or a client thank-you, start with the assortment, food quantity and presentation. A few clear questions can turn a favourite photograph into a well-specified enquiry.",
+    "takeaway": "Choose the contents and food weight first, then confirm labels, design, quantity, delivery pincode and required date.",
+    "sections": [
+      {
+        "heading": "Choose the assortment before the box",
+        "paragraphs": [
+          "Ask which nuts and dried fruits are included, and whether the selection is fixed. ZIVASHA’s Four-Jar Festive Gift lists almonds, cashews, pistachios and raisins. The Three-Jar Floral Gift lists almonds, cashews and raisins. Choose around the recipient’s preferences rather than assuming every hamper has the same mix."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Compare net food weight and presentation",
+        "paragraphs": [
+          "Our Four-Jar Festive Gift lists approximately 750–800 g in total; the Three-Jar Floral Gift lists approximately 600–650 g. These are total food quantities, not the weight in each jar. Ask for the confirmed split between varieties and the available box design. If you need empty boxes and jars, request a separate packaging-only quotation."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Read ingredients and allergens",
+        "paragraphs": [
+          "Dry-fruit hampers containing almonds, cashews or pistachios contain tree nuts. Check the full ingredient and allergen information for each item, especially if choosing for someone with a food allergy. FDA consumer guidance recommends reading labels and avoiding the relevant allergens; a decorative gift box cannot establish suitability."
+        ],
+        "sourceIds": [
+          "fda"
+        ]
+      },
+      {
+        "heading": "Check dates and storage for the handover",
+        "paragraphs": [
+          "Ask about packing dates, expiry or use-by information, and storage instructions for the selected batch. FSSAI’s labelling guidance covers date marking and storage conditions, including relevant instructions after opening. Plan around when the recipient will receive the gift, and confirm these details instead of assuming one shelf life for every assortment."
+        ],
+        "sourceIds": [
+          "fssai"
+        ]
+      },
+      {
+        "heading": "Send one clear festive enquiry",
+        "paragraphs": [
+          "For family or corporate gifting in Delhi NCR, share the design, number of hampers, delivery pincode and required date. Confirm contents, packaging and the final quotation before payment. For other locations, delivery feasibility needs confirmation.",
+          "As of 21 October 2026, ZIVASHA’s mithai new orders are closed until after Diwali; the reopening date is unconfirmed. Dry-fruit-only hamper enquiries remain open, subject to stock, packaging availability and delivery confirmation. Explore the collection to shortlist your preferred presentation."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "fda",
+        "title": "US FDA · Food Allergies: reading labels and identifying allergens",
+        "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies"
+      },
+      {
+        "id": "fssai",
+        "title": "FSSAI · Labelling and Display Regulations, Version VIII: date marking and storage, pp. 16–17",
+        "url": "https://fssai.gov.in/upload/uploadfiles/files/Comp_Labelling%20Display_Version%20VIII_09_09_2025.pdf"
+      }
+    ],
+    "relatedPath": "/shop/#hampers",
+    "relatedLabel": "Explore dry-fruit gift hampers"
   }
 ]
