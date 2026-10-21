@@ -1,3 +1,6 @@
+const mithaiOrderNotice = 'Mithai orders are closed until after Diwali.';
+const dryFruitOrderNotice = 'Dry-fruit hampers remain open, subject to availability and delivery confirmation.';
+
 export const site = {
   name: 'ZIVASHA',
   legalName: 'Phoeniix AgriNexa Ventures',
@@ -12,9 +15,9 @@ export const site = {
   instagram: 'https://www.instagram.com/zivashaofficial/',
   paymentUrl: 'https://razorpay.me/@zivasha',
   catalogueUrl: '/catalogue/ZIVASHA-Catalogue.pdf',
-  mithaiCutoff: '20 October 2026',
-  mithaiCutoffShort: '20 October',
-  orderNotice: 'Mithai orders close 20 October and reopen after Diwali. Dry-fruit-only hamper enquiries remain open, including last-minute requests, subject to stock and delivery confirmation.',
+  mithaiOrderNotice,
+  dryFruitOrderNotice,
+  orderNotice: `${mithaiOrderNotice} ${dryFruitOrderNotice}`,
   linkedin: '', // add when the company page exists
   // Compliance: leave empty until each is in hand — the site renders the
   // corresponding claims only when set. Never claim a licence, report or
