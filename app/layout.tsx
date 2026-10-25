@@ -30,11 +30,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
-    default: 'ZIVASHA — Everyday Laddus, Nutri Bars & Dry-Fruit Gifts',
+    default: 'Gift Hampers, Gond Laddu & Seven Seeds Nutri Bar | ZIVASHA',
     template: '%s | Zivasha',
   },
   description:
-    'Gond Laddu, Khapli Laddu and Seven Seeds Nutri Bar for everyday snack moments. Sweetened with jaggery, no white sugar added. Explore ingredients, pack sizes and dry-fruit gifts.',
+    'Explore ZIVASHA gift hampers, Gond Laddu and Seven Seeds Nutri Bar. Dry-fruit gifting, traditional flavours and a wider decorative gift collection coming soon.',
   // './' resolves per-route against metadataBase → every page gets its own canonical + og:url
   alternates: { canonical: './' },
   openGraph: {
