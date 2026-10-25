@@ -137,3 +137,12 @@ h1,h2,h3{font-family:var(--font-serif),Georgia,serif;font-weight:500;line-height
 @media(max-width:380px){
  .header-in{padding-left:14px;padding-right:14px;gap:8px}.approved-lockup b{font-size:18px}.approved-lockup small{display:none}.boutique-copy h1{font-size:39px}.footer-in{grid-template-columns:1fr}
 }
+
+/* Preview collection: no purchase controls until the range is confirmed. */
+.gift-preview{background:var(--paper)}
+.gift-preview-intro{max-width:76ch;color:var(--muted);margin-bottom:26px}
+.gift-preview-figure{margin:0}.gift-preview-figure img{display:block;width:100%;height:auto}
+.gift-preview-figure figcaption{font-size:11px;line-height:1.7;color:var(--muted);margin-top:12px}
+.gift-preview-status{padding-top:16px;font-size:13px;color:var(--burgundy)}
+.gift-faq{margin-bottom:30px}.gift-faq details{border-top:1px solid var(--line);padding:20px 0}.gift-faq summary{cursor:pointer;font-weight:600}.gift-faq p{font-size:14px;line-height:1.8}
+@media(max-width:700px){.gift-preview .boutique-section-heading{align-items:flex-start;flex-direction:column;gap:0}.boutique-bulk .hero-ctas{flex-wrap:wrap}.gift-faq summary{line-height:1.6}}
