@@ -7,6 +7,7 @@ import { useState } from 'react';
 // prefetch stays on only for the two conversion routes; the rest load on tap.
 const links = [
   { href: '/shop/', label: 'The collection', prefetch: true },
+  { href: '/gift-hampers/', label: 'Gift hampers', prefetch: false },
   { href: '/corporate-gifting/', label: 'Corporate gifting', prefetch: true },
   { href: '/our-story/', label: 'Our story', prefetch: false },
   { href: '/blogs/', label: 'Blogs', prefetch: false },
