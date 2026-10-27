@@ -9,6 +9,8 @@ export const dynamic = 'force-static'; // required by output: 'export'
 /**
  * Served at /sitemap.xml. URLs keep the trailing slash to match canonicals
  * (next.config `trailingSlash: true`) — mixed forms would split index signals.
+ * Omit lastModified when an actual content-edit date is not recorded. A rebuild
+ * alone is not a meaningful page update; article dates come from editorial data.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes: { path: string; priority: number }[] = [
@@ -24,7 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   return [...routes.map(({ path, priority }) => ({
     url: path ? `${site.domain}/${path}/` : `${site.domain}/`,
-    lastModified: new Date(),
     priority,
   })), ...products.map(product => ({url:site.domain+productPath(product.slug), priority:0.8})), ...posts.map(post => ({ url: `${site.domain}/blogs/${post.slug}/`, lastModified: new Date(post.updatedAt), priority: 0.7 }))];
 }
