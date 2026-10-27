@@ -38,7 +38,10 @@ export function wa(message: string, code?: string): string {
 }
 
 export const waGeneric = (code = 'WEB-site') =>
-  wa('Hi Zivasha! I would like to place an order.', code);
+  wa('Hi ZIVASHA! I have a bulk enquiry or need help with an existing order.', code);
+
+export const waBulk = (code = 'WEB-bulk') =>
+  wa('Hi ZIVASHA! I have a bulk enquiry. Product/design: ___ | Quantity: ___ | Delivery pincode: ___ | Required date: ___', code);
 
 export const waCorporate = (code = 'WEB-corp') =>
   wa('Hi Zivasha! I am enquiring about corporate Diwali gifting. Company: ___ | Approx. units: ___ | City: ___', code);
