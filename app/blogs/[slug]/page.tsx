@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import JsonLd from '@/components/JsonLd';
 import posts from '@/lib/blog-posts.json';
 import { businessId, pageOg } from '@/lib/seo';
-import { site, waGeneric } from '@/lib/site';
+import { site, waBulk } from '@/lib/site';
 import '../blogs.css';
 
 type Props = { params: Promise<{slug: string}> };
@@ -35,7 +35,7 @@ export default async function BlogPost({params}:Props) {
       {post.sections.map((section,i)=><section key={i}><h2>{section.heading}</h2>{section.paragraphs.map((p,j)=><p key={j}>{p}</p>)}{section.sourceIds.length>0 && <p className="journal-citations">Source: {section.sourceIds.map((id,j)=>{const source=post.sources.find(s=>s.id===id);return source ? <span key={id}>{j>0?' · ':''}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a></span>:null;})}</p>}</section>)}
       <figure className="journal-product"><div><Image src={post.image} alt={post.imageAlt} fill sizes="(max-width: 700px) 100vw, 760px" quality={75}/></div><figcaption>{post.imageCaption}</figcaption></figure>
       <aside className="journal-source-list"><h2>Sources & further reading</h2><ol>{post.sources.map(s=><li key={s.id}><a href={s.url} target="_blank" rel="noopener noreferrer">{s.title} ↗</a></li>)}</ol><p>Researched on {new Date(post.updatedAt).toLocaleDateString('en-IN',{day:'numeric',month:'long',year:'numeric',timeZone:'Asia/Kolkata'})}. General information, not personalised medical advice.</p></aside>
-      <div className="journal-cta"><h2>A little thought in every gift.</h2><p>Discover the ZIVASHA collection, or ask our team about ingredients and available packs.</p><div><Link className="btn" href={post.relatedPath}>{post.relatedLabel}</Link><a className="text-link" href={waGeneric('WEB-blog')} target="_blank" rel="noopener noreferrer">Ask us on WhatsApp ↗</a></div></div>
+      <div className="journal-cta"><h2>A little thought in every gift.</h2><p>Individual purchases start with a website order request. Availability, final taxes, delivery charges and total are confirmed before payment. For bulk enquiries, contact us on WhatsApp.</p><div><Link className="btn" href={post.relatedPath}>{post.relatedLabel}</Link><a className="text-link" href={waBulk('WEB-blog')} target="_blank" rel="noopener noreferrer">Bulk enquiries on WhatsApp ↗</a></div></div>
       <Link className="text-link" href="/blogs/">← All stories</Link>
     </article>
   </div>;
