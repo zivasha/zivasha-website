@@ -547,5 +547,77 @@
     ],
     "relatedPath": "/shop/#hampers",
     "relatedLabel": "Explore dry-fruit gift hampers"
+  },
+  {
+    "slug": "jaggery-sweets-no-white-sugar-added",
+    "title": "Jaggery sweets: what does “No white sugar added” mean?",
+    "description": "Understand jaggery sweets, no-white-sugar wording, total and added sugars, and the pack details to check when choosing laddus or seed bars.",
+    "category": "Ingredient knowledge",
+    "publishedAt": "2026-10-28T11:38:06+05:30",
+    "updatedAt": "2026-10-28T11:38:06+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "jaggery sweets",
+      "no white sugar added",
+      "Gond Laddu",
+      "Seven Seeds Nutri Bar",
+      "food label sugars"
+    ],
+    "image": "/products/gond-laddu.jpg",
+    "imageAlt": "Illustrated ZIVASHA Gond Laddu container presentation",
+    "imageCaption": "AI-generated product illustration; actual appearance and packaging may vary. The illustration does not establish a serving size or nutrition value.",
+    "intro": "When choosing jaggery sweets, “No white sugar added” tells you something specific about the recipe. It does not tell you how much total sugar is in a laddu or bar. Understanding that distinction makes product descriptions and nutrition information easier to read together.",
+    "takeaway": "Jaggery contributes sugar. A recipe made without white sugar is not automatically sugar-free or made without added sugar.",
+    "sections": [
+      {
+        "heading": "Does jaggery count as sugar?",
+        "paragraphs": [
+          "Yes. ICMR–National Institute of Nutrition includes jaggery among sugars added during food preparation. Replacing white sugar with jaggery changes the sweetening ingredient; it does not remove the sugars it contributes. “Sweetened with jaggery” describes an ingredient choice, rather than a promise of lower sugar or a health benefit."
+        ],
+        "sourceIds": [
+          "nin"
+        ]
+      },
+      {
+        "heading": "Read total sugars and added sugars separately",
+        "paragraphs": [
+          "Total sugars include naturally occurring sugars and any added sugars in the food. The US FDA explains this distinction in its consumer guide to nutrition labels. Do not add the two figures together as though they were separate totals.",
+          "When comparing packs, check whether the figures use the same basis, such as 100 g or a stated serving. A 250 g container describes pack weight, not one serving. Ask for the finished product’s nutrition declaration rather than estimating values from ingredient names."
+        ],
+        "sourceIds": [
+          "fda"
+        ]
+      },
+      {
+        "heading": "What does ZIVASHA’s wording cover?",
+        "paragraphs": [
+          "Gond Laddu, Khapli Laddu and Seven Seeds Nutri Bar are sweetened with jaggery, with no white sugar added. Gond Laddu and Seven Seeds Nutri Bar also contain dates.",
+          "These products still contain sugars. Ask for the complete ingredient list, allergens, serving information and nutrition declaration before choosing for a particular dietary need. Khapli contains wheat and gluten. A sweetener description alone cannot establish suitability for the recipient."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Check availability before planning a gift",
+        "paragraphs": [
+          "Mithai new orders are closed until after Diwali; the reopening date is not yet confirmed. Check standalone Nutri Bar and mixed-hamper availability separately. Dry-fruit-only hamper requests remain subject to stock, packaging and delivery confirmation.",
+          "For individual dry-fruit purchases, use the website collection below to submit an order request. For bulk enquiries, WhatsApp +91 97736 95862 with the design, quantity, delivery pincode and required date. Availability, final taxes, delivery charges and total are confirmed before payment."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "nin",
+        "title": "ICMR–NIN · Dietary Guidelines for Indians 2024, p. 94: added sugars",
+        "url": "https://nin.res.in/dietaryguidelines/pdfjs/locale/DGI_2024.pdf#page=111"
+      },
+      {
+        "id": "fda",
+        "title": "US FDA · Added Sugars on the Nutrition Facts Label: total and added sugars",
+        "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
+      }
+    ],
+    "relatedPath": "/shop/#hampers",
+    "relatedLabel": "Browse dry-fruit hampers for an order request"
   }
 ]
