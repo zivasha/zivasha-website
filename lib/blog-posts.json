@@ -619,5 +619,82 @@
     ],
     "relatedPath": "/shop/#hampers",
     "relatedLabel": "Browse dry-fruit hampers for an order request"
+  },
+  {
+    "slug": "corporate-dry-fruit-gifting-bulk-enquiry-checklist",
+    "title": "Corporate dry-fruit gifting: a bulk enquiry checklist",
+    "description": "Planning dry-fruit gifts for a team or clients? Send the design, hamper count, delivery pincode and date in one clear enquiry, then confirm the final details.",
+    "category": "Thoughtful gifting",
+    "publishedAt": "2026-10-29T12:36:31+05:30",
+    "updatedAt": "2026-10-29T12:36:31+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "corporate dry-fruit gifting",
+      "bulk gift hamper enquiry",
+      "corporate gifting Delhi NCR",
+      "dry-fruit gift planning",
+      "gift hamper quantity"
+    ],
+    "image": "/products/four-jar-festive-gift.jpg",
+    "imageAlt": "ZIVASHA Four-Jar Festive Gift in an ornate presentation box",
+    "imageCaption": "Approved product-photo-based presentation. Background and branding edited; actual appearance and packaging may vary. Confirm the selected design and final contents.",
+    "intro": "Planning corporate dry-fruit gifting often starts with a short message: “Please share details.” A more useful first enquiry gives the supplier enough information to check the actual requirement. You do not need a finished order to begin; a clear brief helps identify what still needs confirmation.",
+    "takeaway": "Send the design, number of hampers, delivery city and pincode, and required date together. An enquiry is not an accepted order.",
+    "sections": [
+      {
+        "heading": "Start with the design and hamper count",
+        "paragraphs": [
+          "Share the product name or collection link and the number of finished hampers you need. Count one gift for each intended recipient; the jars inside a hamper are not separate gift units. If you are considering two designs, give the quantity for each rather than one combined total."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Add the delivery pincode and required date",
+        "paragraphs": [
+          "Include the city, delivery pincode and the date the gifts need to reach you. Say whether they are going to one office or different destinations, with a pack count for each pincode. India Post’s published PIN-code directory can help check a postcode. A pincode alone does not confirm ZIVASHA delivery feasibility or timing."
+        ],
+        "sourceIds": [
+          "indiapost"
+        ]
+      },
+      {
+        "heading": "Flag food requirements before finalising",
+        "paragraphs": [
+          "Ask for the final ingredient and allergen information before selecting food gifts for a team. FDA consumer guidance advises people with food allergies to read labels and avoid their allergens. An attractive assortment or a familiar product name cannot establish that it suits every recipient. Confirm any food restrictions before agreeing the selection."
+        ],
+        "sourceIds": [
+          "fda"
+        ]
+      },
+      {
+        "heading": "Use one short message for the brief",
+        "paragraphs": [
+          "You can write: “Design/product: __. Number of hampers: __. Delivery city and pincode(s): __. Required arrival date: __. Food requirements or questions: __.” If something is undecided, say so; request the missing information rather than guessing.",
+          "For bulk enquiries, send this brief on WhatsApp +91 97736 95862. Individual purchases go through the website collection as order requests. Availability, final taxes, delivery charges and total are confirmed before payment."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Check the current range and availability",
+        "paragraphs": [
+          "Dry-fruit-only hamper requests remain subject to stock, packaging and delivery confirmation. Mithai new orders are closed until after Diwali; the reopening date is not yet confirmed. Check standalone Nutri Bar and mixed-hamper availability separately. Coming-soon collections are previews, not a promise of current stock."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "indiapost",
+        "title": "India Post · Official PIN-code lists by postal circle",
+        "url": "https://www.indiapost.gov.in/rti/pincodelist"
+      },
+      {
+        "id": "fda",
+        "title": "US FDA · Food Allergies: reading ingredient and allergen labels",
+        "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies"
+      }
+    ],
+    "relatedPath": "/shop/#hampers",
+    "relatedLabel": "View dry-fruit hampers for an order request"
   }
 ]
