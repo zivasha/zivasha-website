@@ -696,5 +696,78 @@
     ],
     "relatedPath": "/shop/#hampers",
     "relatedLabel": "View dry-fruit hampers for an order request"
+  },
+  {
+    "slug": "school-tiffin-snacks-seed-bar-label-checklist",
+    "title": "School tiffin snacks: check before choosing a seed bar",
+    "description": "Considering a seed bar for a school tiffin? Check school food rules, the complete ingredient and allergen label, and suitability before choosing.",
+    "category": "Everyday food questions",
+    "publishedAt": "2026-10-30T10:04:28+05:30",
+    "updatedAt": "2026-10-30T10:04:28+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "school tiffin snack checklist",
+      "seed bar ingredients",
+      "food allergen labels",
+      "Seven Seeds Nutri Bar",
+      "parent snack questions"
+    ],
+    "image": "/products/seven-seeds-nutri-bar.jpg",
+    "imageAlt": "Illustrated ZIVASHA Seven Seeds Nutri Bar container presentation",
+    "imageCaption": "AI-generated product illustration; actual appearance and packaging may vary. Visible seeds are illustrative and do not verify the exact recipe or suitability for children.",
+    "intro": "When considering a snack for a child’s tiffin, start with the school’s food policy and the actual pack label. A seed-bar name, attractive image or sweetener claim does not answer every question a parent needs to ask.",
+    "takeaway": "Check school rules, read the current label and resolve missing suitability information before choosing a snack for a child.",
+    "sections": [
+      {
+        "heading": "Ask the school first",
+        "paragraphs": [
+          "Check with your child’s school about food restrictions and its approach to allergies before selecting a snack. Do not assume every school has the same rules. CDC guidance recommends school food-allergy plans that cover prevention and emergency response; your school can explain its own requirements."
+        ],
+        "sourceIds": [
+          "cdc"
+        ]
+      },
+      {
+        "heading": "Read the label again when packing",
+        "paragraphs": [
+          "Check the complete ingredient list and allergen warnings, including any ‘contains’ or ‘may contain’ wording. The Canadian Food Inspection Agency advises parents to recheck ingredients before buying, when putting food away and again when packing it, because recipes can change. An older screenshot or a list of key ingredients is not a substitute for the current complete label."
+        ],
+        "sourceIds": [
+          "cfia"
+        ]
+      },
+      {
+        "heading": "Ask what is still missing",
+        "paragraphs": [
+          "ZIVASHA Seven Seeds Nutri Bar contains nuts and oats and is not offered as nut-free or gluten-free. Ask for the complete ingredient, allergen and nutrition information. Child-specific age and texture suitability has not been established for this product. This checklist does not recommend it for a particular child or replace individual dietary advice.",
+          "Keep the label information available for whoever packs the tiffin. If an ingredient or school restriction is unclear, resolve it before sending that food."
+        ],
+        "sourceIds": [
+          "cfia"
+        ]
+      },
+      {
+        "heading": "Check availability before an order request",
+        "paragraphs": [
+          "Standalone Nutri Bar and mixed-hamper availability needs confirmation. Mithai new orders are closed until after Diwali; the reopening date is not yet confirmed. Dry-fruit-only hampers remain subject to stock, packaging and delivery confirmation. Coming-soon ranges are previews.",
+          "Individual purchases use website order requests; bulk enquiries go to WhatsApp +91 97736 95862. Availability, final taxes, delivery charges and total are confirmed before payment. Submitting a request does not confirm an order."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "cdc",
+        "title": "CDC · Food Allergies in Schools",
+        "url": "https://www.cdc.gov/school-health-conditions/food-allergies/index.html"
+      },
+      {
+        "id": "cfia",
+        "title": "Canadian Food Inspection Agency · Reading labels for school lunches and snacks",
+        "url": "https://inspection.canada.ca/en/inspect-and-protect/articles/master-food-labels-allergy-safe-lunches-and-sn"
+      }
+    ],
+    "relatedPath": "/shop/seven-seeds-nutri-bar/",
+    "relatedLabel": "View Seven Seeds Nutri Bar details; confirm availability"
   }
 ]
