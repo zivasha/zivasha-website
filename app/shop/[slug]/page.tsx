@@ -39,7 +39,7 @@ export default async function ProductPage({params}: Props) {
   const faqs = productFaqs(product);
   const foodRange = ['gond-laddu', 'khapli-laddu', 'seven-seeds-nutri-bar'];
   const related = products.filter(p => p.slug !== slug && (foodRange.includes(slug) ? foodRange.includes(p.slug) : p.kind === product.kind)).slice(0, 3);
-  const guides = posts.filter(post => post.relatedPath === productPath(slug));
+  const guides = posts.filter(post => post.relatedPath === productPath(slug) || detail.guideSlugs?.includes(post.slug));
   const absoluteUrl = site.domain + productPath(slug);
   const imageNote = product.kind === 'hamper'
     ? 'Supplied product photograph; background and branding AI-edited. Confirm the available packaging before ordering.'
@@ -85,7 +85,7 @@ export default async function ProductPage({params}: Props) {
         <div><p className="eyebrow">Before you choose</p><h2>Ingredient information</h2><p>{detail.note}</p><p>Confirm the final label, storage instructions and best-before information for your order.</p></div>
       </section>
       <section className="product-detail-faq"><div><p className="eyebrow">A little help</p><h2>{detail.highlights ? 'Your questions, answered.' : 'Ordering, made clear.'}</h2><p>ZIVASHA is a brand of {site.legalName}. Reach us at <a href={'mailto:'+site.email}>{site.email}</a>.</p></div><div>{faqs.map(f=><details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</div></section>
-      {guides.length > 0 && <section className="product-guides" aria-labelledby="ingredient-guides"><p className="eyebrow">From the ZIVASHA journal</p><h2 id="ingredient-guides">Get to know your ingredients.</h2>{guides.map(post=><article key={post.slug}><h3><Link href={'/blogs/'+post.slug+'/'}>{post.title}</Link></h3><p>{post.description}</p><Link className="text-link" href={'/blogs/'+post.slug+'/'}>Read the guide →</Link></article>)}</section>}
+      {guides.length > 0 && <section className="product-guides" aria-labelledby="ingredient-guides"><p className="eyebrow">From the ZIVASHA journal</p><h2 id="ingredient-guides">Product and buying guides.</h2>{guides.map(post=><article key={post.slug}><h3><Link href={'/blogs/'+post.slug+'/'}>{post.title}</Link></h3><p>{post.description}</p><Link className="text-link" href={'/blogs/'+post.slug+'/'}>Read the guide →</Link></article>)}</section>}
       {related.length > 0 && <section className="product-related"><div className="boutique-section-heading"><div><p className="eyebrow">Keep exploring</p><h2>You may also like</h2></div><Link className="text-link" href="/shop/">View the collection →</Link></div><div className="cards">{related.map(p=><ProductCard key={p.slug} p={p} category={productCategory(p)}/>)}</div></section>}
     </div>
   </>;
