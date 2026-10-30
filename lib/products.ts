@@ -69,7 +69,7 @@ export const products: Product[] = [
     "slug": "seven-seeds-nutri-bar",
     "image": "seven-seeds-nutri-bar",
     "name": "Seven Seeds Nutri Bar",
-    "desc": "Seven seeds, oats and nuts, sweetened with jaggery and khajoor (dates). No white sugar added. Explore an everyday snack or tiffin option after checking allergens.",
+    "desc": "Seven seeds, oats and nuts, sweetened with jaggery and khajoor (dates). No white sugar added. Read the complete ingredients and allergens; child-specific age and texture suitability has not been established.",
     "weight": "250 g or 500 g container",
     "kind": "nutribar"
   },
