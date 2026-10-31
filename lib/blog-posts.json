@@ -769,5 +769,76 @@
     ],
     "relatedPath": "/shop/seven-seeds-nutri-bar/",
     "relatedLabel": "View Seven Seeds Nutri Bar details; confirm availability"
+  },
+  {
+    "slug": "dry-fruit-hamper-storage-after-opening",
+    "title": "Dry-fruit hamper storage: keep the label with the gift",
+    "description": "Opening a dry-fruit gift hamper? Keep its food labels, check dates alongside storage instructions, and confirm what changes after opening each pack.",
+    "category": "Thoughtful gifting",
+    "publishedAt": "2026-10-31T19:01:48+05:30",
+    "updatedAt": "2026-10-31T19:01:48+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "dry-fruit hamper storage",
+      "dry-fruit gift labels",
+      "food storage after opening",
+      "gift hamper shelf life",
+      "ZIVASHA dry-fruit hampers"
+    ],
+    "image": "/products/three-jar-floral-gift.jpg",
+    "imageAlt": "ZIVASHA Three-Jar Floral Gift in its approved presentation box",
+    "imageCaption": "Approved product-photo-based presentation with AI background and branding edits; actual appearance and packaging may vary. The image does not establish the dates or storage instructions for a supplied batch.",
+    "intro": "After a dry-fruit hamper is unwrapped, its food labels are still useful. Keep them with the jars or packs rather than discarding them with the decorative wrapping. The practical question is not simply how long dry fruits usually last, but how the food you received should be stored.",
+    "takeaway": "Read each actual pack’s dates and storage instructions together, and check for separate directions after opening.",
+    "sections": [
+      {
+        "heading": "Read the date alongside the storage conditions",
+        "paragraphs": [
+          "FSSAI’s Eat Right India guidance tells consumers to check manufacture and expiry or best-before dates, and read storage instructions covering where to keep a product and for how long. Check both parts of the label. A printed date should not be treated as a promise that food will keep under any conditions."
+        ],
+        "sourceIds": [
+          "fssai"
+        ]
+      },
+      {
+        "heading": "Check again when you open a pack",
+        "paragraphs": [
+          "Look for instructions that apply after opening. NSW Food Authority explains that directions such as refrigeration or a stated period after opening need to be followed for the food to keep as intended. Those are examples, not universal instructions for every dry-fruit pack. Use the directions on your actual product; do not borrow a storage duration from another brand or assortment."
+        ],
+        "sourceIds": [
+          "nsw"
+        ]
+      },
+      {
+        "heading": "Pass the information on with the gift",
+        "paragraphs": [
+          "If you separate jars for different recipients, keep the relevant food information with each one. If you move food into another container, retain its original label. Noting when you opened a pack can help you follow any after-opening instruction; it does not replace the printed date.",
+          "For a ZIVASHA selection, ask for the supplied batch’s date and storage details if anything is missing or unclear. A catalogue photograph cannot establish shelf life, and we do not assign one duration to every hamper."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Before requesting your next hamper",
+        "paragraphs": [
+          "Dry-fruit-only hampers remain subject to stock, packaging and delivery confirmation. Mithai new orders are closed until after Diwali; the reopening date is unknown. Confirm standalone Nutri Bar and mixed-hamper availability separately. Coming-soon ranges are previews.",
+          "Individual purchases use website order requests; bulk enquiries go to WhatsApp +91 97736 95862. Availability, final taxes, delivery charges and total are confirmed before payment. A request is not a confirmed order."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "fssai",
+        "title": "FSSAI Eat Right India · How to Read Labels",
+        "url": "https://www.eatrightindia.gov.in/EatRightIndia/how-to-read-label.jsp"
+      },
+      {
+        "id": "nsw",
+        "title": "NSW Food Authority · Keeping food safe: date marks and storage instructions",
+        "url": "https://www.foodauthority.nsw.gov.au/consumer/food-safety-home/keeping-food-safe"
+      }
+    ],
+    "relatedPath": "/shop/#hampers",
+    "relatedLabel": "View dry-fruit hampers for an order request"
   }
 ]
