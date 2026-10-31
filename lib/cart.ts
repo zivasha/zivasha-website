@@ -4,8 +4,8 @@ export type CartItem = {slug: string; variant: string; quantity: number};
 export type Pack = {id: string; label: string; pricePaise?: number};
 export const CART_KEY = 'zivasha-cart-v1';
 const approved500g: Record<string, number> = {'gond-laddu':104850,'khapli-laddu':89850,'seven-seeds-nutri-bar':119850};
-// Owner-approved website prices, 17 October 2026. Amounts are integer paise.
-const hamperPrices: Record<string, number> = {'festive-potli-basket':219900,'four-jar-festive-gift':219900,'three-jar-floral-gift':179900,'navy-three-jar-gift':169900,'turquoise-gift-tray':169900,'slim-festive-box':79900};
+// Owner-approved dry-fruit hamper prices: 20% increase on 31 October 2026. Amounts are integer paise.
+const hamperPrices: Record<string, number> = {'festive-potli-basket':263880,'four-jar-festive-gift':263880,'three-jar-floral-gift':215880,'navy-three-jar-gift':203880,'turquoise-gift-tray':203880,'slim-festive-box':95880};
 export function packsFor(product: Product): Pack[] {
   return product.slug in approved500g
     ? [{id:'250g',label:'250 g container'},{id:'500g',label:'500 g container',pricePaise:approved500g[product.slug]}]
