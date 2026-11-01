@@ -840,5 +840,78 @@
     ],
     "relatedPath": "/shop/#hampers",
     "relatedLabel": "View dry-fruit hampers for an order request"
+  },
+  {
+    "slug": "what-are-raisins-dry-fruit-hamper-guide",
+    "title": "What are raisins? A dry-fruit hamper buyer’s guide",
+    "description": "Raisins are dried grapes, but their type and ingredients can differ. Learn what to check when choosing a dry-fruit gift hamper with raisins.",
+    "category": "Know your ingredients",
+    "publishedAt": "2026-11-01T10:06:20+05:30",
+    "updatedAt": "2026-11-01T10:06:20+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "what are raisins",
+      "raisins in dry-fruit hampers",
+      "seedless raisins",
+      "dry-fruit gift contents",
+      "ZIVASHA Four-Jar Festive Gift"
+    ],
+    "image": "/products/four-jar-festive-gift.jpg",
+    "imageAlt": "ZIVASHA Four-Jar Festive Gift with four gold-lidded jars in its approved presentation box",
+    "imageCaption": "Approved product-photo-based presentation with AI background and branding edits; actual appearance and packaging may vary. The photograph does not establish the raisin variety, origin or processing method.",
+    "intro": "Raisins are dried grapes. That simple answer is useful when reading a dry-fruit hamper’s contents, but it does not tell you everything about the raisins inside. The type, ingredients and supplied pack details still matter when choosing a gift.",
+    "takeaway": "Check the actual raisin description and ingredient information; do not assume every raisin pack has the same variety, processing or ingredients.",
+    "sections": [
+      {
+        "heading": "Does “raisin” always mean seedless?",
+        "paragraphs": [
+          "No. The Codex international standard for raisins distinguishes grapes that are naturally seedless or almost seedless from seed-bearing types. Seeds may also be removed during processing. If this detail matters to your recipient, ask whether the supplied raisins are a seedless type or have had seeds removed, rather than guessing from their appearance."
+        ],
+        "sourceIds": [
+          "codex"
+        ]
+      },
+      {
+        "heading": "Check the ingredients as well as the name",
+        "paragraphs": [
+          "The same standard allows certain optional coatings and ingredients, including edible oils and sugars. This does not mean every raisin product contains them; it means “raisins” alone is not enough to establish a no-added-sugar claim.",
+          "FSSAI’s Eat Right India guidance advises checking the ingredient list and food additives. Ask for the actual pack information if a product description does not answer your question. A catalogue picture cannot confirm a complete ingredient list."
+        ],
+        "sourceIds": [
+          "codex",
+          "fssai"
+        ]
+      },
+      {
+        "heading": "Where raisins fit in a ZIVASHA hamper",
+        "paragraphs": [
+          "The Four-Jar Festive Gift combines almonds, cashews, pistachios and raisins in four glass jars. Its approximate total dry-fruit net weight is 750–800 g, not that amount in each jar. Confirm the final assortment and individual jar weights for your request.",
+          "This assortment contains tree nuts. For a recipient with an ingredient or allergy concern, request the complete pack labels. Raisin variety, origin and processing should be confirmed for the supplied product, not inferred from its colour."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Plan an order request",
+        "paragraphs": [
+          "Dry-fruit-only hampers remain subject to stock, packaging and delivery confirmation. Mithai new orders are closed until after Diwali; the reopening date is unknown. Check standalone Nutri Bar and mixed-hamper availability separately. Coming-soon ranges remain previews.",
+          "Use the website for individual order requests and WhatsApp +91 97736 95862 for bulk enquiries. Availability, final taxes, delivery charges and total are confirmed before payment. A request is not a confirmed order."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "codex",
+        "title": "FAO/WHO Codex Alimentarius · Standard for Raisins (CXS 67-1981, amended 2019)",
+        "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%3A%2F%2Fworkspace.fao.org%2Fsites%2Fcodex%2FStandards%2FCXS%2B67-1981%2FCXS_067e.pdf"
+      },
+      {
+        "id": "fssai",
+        "title": "FSSAI Eat Right India · How to Read Labels",
+        "url": "https://www.eatrightindia.gov.in/EatRightIndia/how-to-read-label.jsp"
+      }
+    ],
+    "relatedPath": "/shop/four-jar-festive-gift/",
+    "relatedLabel": "View the Four-Jar Festive Gift for an order request"
   }
 ]
