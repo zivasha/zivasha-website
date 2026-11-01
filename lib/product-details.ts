@@ -28,6 +28,7 @@ export const productDetails: Record<string, Detail> = {
     note: 'Contains tree nuts. The complete pack labels can be confirmed with your order.',
   },
   'navy-three-jar-gift': {
+    guideSlugs: ['how-to-choose-dry-fruit-gift-hamper', 'dry-fruit-hamper-storage-after-opening'],
     title: 'Navy Three-Jar Dry-Fruit Gift Box',
     intro: 'A navy printed sleeve opens to a gold slide-out tray holding three glass jars. Choose this presentation for a dry-fruit gift featuring almonds, cashews and raisins in separate containers.',
     packaging: 'Navy printed sleeve, gold slide-out tray and three glass jars. Packaging availability and individual fill weights are confirmed on enquiry.',
@@ -136,6 +137,10 @@ export const productPath = (slug: string) => `/shop/${slug}/`;
 export const productCategory = (p: Product) => p.kind === 'hamper' ? 'Dry-fruit gift hampers' : p.kind === 'mithai' ? 'Mithai' : p.kind === 'nutribar' ? 'Nutri bars' : 'Gifting formats';
 
 const ingredientFaqs: Record<string, {q: string; a: string}[]> = {
+  'navy-three-jar-gift': [
+    {q: 'What is inside the Navy Three-Jar Gift?', a: 'Almonds, cashews and raisins are presented in three glass jars within a navy printed sleeve and gold slide-out tray. The assortment contains tree nuts; request the complete pack labels if you have an ingredient or allergy question.'},
+    {q: 'Does each jar contain 700–750 g of dry fruits?', a: 'No. Approximately 700–750 g is the total dry-fruit net weight across the three jars, excluding outer packaging. The individual jar weights and available packaging are confirmed before payment.'},
+  ],
   'four-jar-festive-gift': [
     {q: 'What is inside the Four-Jar Festive Gift?', a: 'The dry-fruit assortment contains almonds, cashews, pistachios and raisins in four separate glass jars with gold lids, inside a presentation box. It contains tree nuts; ask for the complete pack labels before choosing for someone with an allergy.'},
     {q: 'How much dry fruit does the four-jar hamper contain?', a: 'Approximately 750–800 g is the total dry-fruit net weight, not the weight in each jar. Confirm the final assortment, individual jar weights and available packaging before payment.'},
