@@ -43,7 +43,6 @@ export const productDetails: Record<string, Detail> = {
     note: 'Contains tree nuts. Please confirm final ingredient labels before ordering for someone with an allergy.',
   },
   'slim-festive-box': {
-    guideSlugs: ['how-to-choose-dry-fruit-gift-hamper', 'dry-fruit-hamper-storage-after-opening'],
     title: 'Slim Dry-Fruit Gift Box — 300 g',
     intro: 'A compact pink gift box with four gold-lined sections and 300 g of dry fruits in total. The selection includes almonds, cashews and raisins, with dates or pistachios as the fourth variety.',
     packaging: 'Slim presentation box with four sections. Confirm the fourth variety and individual fill weights when placing your request.',
@@ -138,13 +137,9 @@ export const productPath = (slug: string) => `/shop/${slug}/`;
 export const productCategory = (p: Product) => p.kind === 'hamper' ? 'Dry-fruit gift hampers' : p.kind === 'mithai' ? 'Mithai' : p.kind === 'nutribar' ? 'Nutri bars' : 'Gifting formats';
 
 const ingredientFaqs: Record<string, {q: string; a: string}[]> = {
-  'slim-festive-box': [
-    {q: 'What does the 300 g Slim Festive Box contain?', a: 'The Slim Festive Box contains 300 g of dry fruits in total, arranged in four sections. The assortment includes almonds, cashews and raisins, plus dates or pistachios. Confirm the fourth variety and the weight in each section; 300 g does not mean 300 g per section or a fixed equal split.'},
-    {q: 'Is this the same pack as the Navy Three-Jar Gift?', a: 'No. The Slim Festive Box is a compact four-section box with 300 g total contents. The Navy Three-Jar Gift has three glass jars and approximately 700–750 g of dry fruits in total. Compare the named design and total net weight when requesting a quotation.'},
-  ],
   'navy-three-jar-gift': [
     {q: 'What is inside the Navy Three-Jar Gift?', a: 'Almonds, cashews and raisins are presented in three glass jars within a navy printed sleeve and gold slide-out tray. The assortment contains tree nuts; request the complete pack labels if you have an ingredient or allergy question.'},
-    {q: 'Does each jar contain 700–750 g of dry fruits?', a: 'No. Approximately 700–750 g is the total dry-fruit net weight across the three jars, excluding outer packaging. The individual jar weights and available packaging are confirmed before payment. This is a different format from the 300 g Slim Festive Box.'},
+    {q: 'Does each jar contain 700–750 g of dry fruits?', a: 'No. Approximately 700–750 g is the total dry-fruit net weight across the three jars, excluding outer packaging. The individual jar weights and available packaging are confirmed before payment.'},
   ],
   'four-jar-festive-gift': [
     {q: 'What is inside the Four-Jar Festive Gift?', a: 'The dry-fruit assortment contains almonds, cashews, pistachios and raisins in four separate glass jars with gold lids, inside a presentation box. It contains tree nuts; ask for the complete pack labels before choosing for someone with an allergy.'},
