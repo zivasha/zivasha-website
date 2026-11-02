@@ -913,5 +913,83 @@
     ],
     "relatedPath": "/shop/four-jar-festive-gift/",
     "relatedLabel": "View the Four-Jar Festive Gift for an order request"
+  },
+  {
+    "slug": "where-almonds-in-india-come-from",
+    "title": "Where do almonds in India come from? A badam buying guide",
+    "description": "Almonds in India come from local orchards and imported supply. Learn about growing regions and the origin details to check for a dry-fruit gift.",
+    "category": "Origins & growing regions",
+    "publishedAt": "2026-11-02T23:40:41+05:30",
+    "updatedAt": "2026-11-02T23:40:41+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "almonds in India",
+      "where badam grows",
+      "Indian and imported almonds",
+      "almond origin",
+      "dry-fruit gift hampers"
+    ],
+    "image": "/products/navy-three-jar-gift.jpg",
+    "imageAlt": "ZIVASHA Navy Three-Jar Gift with almonds, cashews and raisins in its approved presentation",
+    "imageCaption": "Approved product-photo-based presentation with AI background and branding edits; actual appearance and packaging may vary. The photograph does not establish the almonds’ variety or growing origin.",
+    "intro": "Almonds, often called badam, are familiar in Indian kitchens and dry-fruit gifts. Some are grown in India, while imported almonds also supply the market. Knowing that distinction helps you ask a more useful question than simply whether a hamper is packed locally.",
+    "takeaway": "An Indian packing address does not establish where the almonds grew. Ask for the actual batch’s origin and pack information.",
+    "sections": [
+      {
+        "heading": "Where are almonds grown in India?",
+        "paragraphs": [
+          "The National Horticulture Board identifies Kashmir and Himachal Pradesh as important Indian almond-growing regions. Its cultivation guide describes a temperate climate, winter chilling and loamy or clay-loam soils among the crop’s requirements. Suitable orchard conditions matter; almonds are not grown equally across every region."
+        ],
+        "sourceIds": [
+          "nhb"
+        ]
+      },
+      {
+        "heading": "Why do imported almonds appear in Indian shops?",
+        "paragraphs": [
+          "Domestic growing regions tell only part of the story. USDA’s September 2025 India tree-nut report describes substantial almond imports, with California and Australia as major sources. It also explains that many imported in-shell almonds are shelled in India.",
+          "Growing, shelling and packing can therefore happen in different places. A local packing address or an Indian gift brand cannot, by itself, establish Indian agricultural origin. These market facts do not identify the almonds in any particular ZIVASHA batch."
+        ],
+        "sourceIds": [
+          "usda"
+        ]
+      },
+      {
+        "heading": "What should a gift buyer confirm?",
+        "paragraphs": [
+          "If origin or variety matters, ask for the supplied batch’s details rather than guessing from a photograph. Confirm the selected assortment, net weight and full ingredient information too. Almonds are tree nuts and can trigger allergies; check the recipient’s restrictions and the actual food labels.",
+          "ZIVASHA’s Navy Three-Jar Gift brings almonds, cashews and raisins together. Treat the presentation and the ingredient origin as separate details to confirm for your request."
+        ],
+        "sourceIds": [
+          "fda"
+        ]
+      },
+      {
+        "heading": "Make a clear order request",
+        "paragraphs": [
+          "Dry-fruit-only hamper requests depend on stock, packaging and delivery confirmation. Share your chosen design, quantity, delivery pincode and required date. Use the website for individual order requests and WhatsApp +91 97736 95862 for bulk enquiries. Availability, final taxes, delivery charges and total are confirmed before payment; a request is not a confirmed order."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "nhb",
+        "title": "National Horticulture Board · Almond detailed project report, growing regions and agro-climatic suitability",
+        "url": "https://nhb.gov.in/NHBDPR/Almond_DPR.pdf"
+      },
+      {
+        "id": "usda",
+        "title": "USDA Foreign Agricultural Service · India Tree Nuts Annual, 18 September 2025",
+        "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Tree+Nuts+Annual_New+Delhi_India_IN2025-0053.pdf"
+      },
+      {
+        "id": "fda",
+        "title": "US FDA · Food Allergies: What You Need to Know",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know"
+      }
+    ],
+    "relatedPath": "/shop/navy-three-jar-gift/",
+    "relatedLabel": "View the Navy Three-Jar Gift for an order request"
   }
 ]
