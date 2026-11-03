@@ -991,5 +991,76 @@
     ],
     "relatedPath": "/shop/navy-three-jar-gift/",
     "relatedLabel": "View the Navy Three-Jar Gift for an order request"
+  },
+  {
+    "slug": "dry-fruit-gift-weight-total-or-per-jar",
+    "title": "Dry-fruit gift weight: total contents or weight per jar?",
+    "description": "Understand total dry-fruit gift weight, net contents and individual jar weights before choosing a hamper. A practical guide to reading pack details.",
+    "category": "Thoughtful gifting",
+    "publishedAt": "2026-11-03T20:24:26+05:30",
+    "updatedAt": "2026-11-03T20:24:26+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "dry-fruit gift weight",
+      "hamper net weight",
+      "total weight or per jar",
+      "dry-fruit hamper contents",
+      "Navy Three-Jar Gift"
+    ],
+    "image": "/products/navy-three-jar-gift.jpg",
+    "imageAlt": "ZIVASHA Navy Three-Jar Gift with three glass jars in its approved presentation",
+    "imageCaption": "Approved product-photo-based presentation with AI background and branding edits; actual appearance and packaging may vary. The image does not establish individual jar fill weights.",
+    "intro": "A dry-fruit gift can look generous in a photograph, but jar count and food quantity answer different questions. Before choosing a hamper, check whether the stated weight covers the whole assortment or each container. That small distinction makes a gift enquiry much clearer.",
+    "takeaway": "Confirm the total net food weight, the contents of each jar and any individual fill weights; do not infer them from jar count or a photograph.",
+    "sections": [
+      {
+        "heading": "What does net weight include?",
+        "paragraphs": [
+          "Net weight refers to the contents, excluding the packaging. Kerala’s Legal Metrology Department explains that wrappers and other materials outside the commodity are excluded from its declared net quantity. For a dry-fruit gift, the presentation box, jars and lids should not be mistaken for food weight.",
+          "Look for grams or kilograms beside the quantity. The same guidance distinguishes the quantity of the contents from the number of items or containers. A three-jar description alone does not tell you how much dry fruit is supplied."
+        ],
+        "sourceIds": [
+          "legalmetrology"
+        ]
+      },
+      {
+        "heading": "Read “total” before comparing hampers",
+        "paragraphs": [
+          "ZIVASHA’s Navy Three-Jar Gift lists approximately 700–750 g of dry fruits in total across its three jars, combining almonds, cashews and raisins. That range describes the complete assortment; it is not the amount in each jar.",
+          "Confirm the final pack specification and individual jar weights for your selected request. Do not assume an equal split between varieties. An approximate catalogue description helps you shortlist a design, while the supplied pack details establish what you will receive."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Keep weight and ingredient questions separate",
+        "paragraphs": [
+          "A weight figure does not establish the complete ingredients or suitability for a recipient. Almonds are tree nuts and can cause allergic reactions. FDA consumer guidance recommends reading food labels and avoiding relevant allergens. Ask for the actual ingredient and allergen information when choosing for someone with a restriction."
+        ],
+        "sourceIds": [
+          "fda"
+        ]
+      },
+      {
+        "heading": "Turn your shortlist into an order request",
+        "paragraphs": [
+          "Share the design, number of gifts, delivery pincode and required date. Dry-fruit-only hampers remain subject to stock, packaging and delivery confirmation. Use the website for individual order requests and WhatsApp +91 97736 95862 for bulk enquiries. Availability, final taxes, delivery charges and total are confirmed before payment; submitting a request does not confirm an order."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "legalmetrology",
+        "title": "Kerala Legal Metrology Department · Relevant Rules, net quantity and quantity declarations",
+        "url": "https://lmd.kerala.gov.in/2025/06/09/relevant-rules/"
+      },
+      {
+        "id": "fda",
+        "title": "US FDA · Food Allergies: What You Need to Know",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know"
+      }
+    ],
+    "relatedPath": "/shop/navy-three-jar-gift/",
+    "relatedLabel": "View the Navy Three-Jar Gift for an order request"
   }
 ]
