@@ -1062,5 +1062,83 @@
     ],
     "relatedPath": "/shop/navy-three-jar-gift/",
     "relatedLabel": "View the Navy Three-Jar Gift for an order request"
+  },
+  {
+    "slug": "gond-laddu-khapli-laddu-ingredient-difference",
+    "title": "Gond Laddu and Khapli Laddu: what is the difference?",
+    "description": "Compare the key ingredients in Gond Laddu and Khapli Laddu, including wheat, sweeteners and allergens, before choosing traditional mithai.",
+    "category": "Know your ingredients",
+    "publishedAt": "2026-11-09T16:29:06+05:30",
+    "updatedAt": "2026-11-09T16:29:06+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "Gond Laddu and Khapli Laddu difference",
+      "Gond Laddu ingredients",
+      "Khapli Laddu ingredients",
+      "khapli wheat gluten",
+      "jaggery mithai"
+    ],
+    "image": "/products/khapli-laddu.jpg",
+    "imageAlt": "Approved illustration of ZIVASHA Khapli Laddu",
+    "imageCaption": "AI-generated product illustration of Khapli Laddu; actual appearance and packaging may vary. The image does not establish a complete recipe or batch origin.",
+    "intro": "Gond Laddu and Khapli Laddu share a familiar round shape, but their names point to different ingredients. When comparing traditional mithai for a tea break or a gift, start with the recipe and the recipient’s restrictions. Neither name alone tells you the complete contents.",
+    "takeaway": "Compare the actual ingredients: Khapli is wheat and contains gluten, while a Gond Laddu description does not establish a gluten-free recipe.",
+    "sections": [
+      {
+        "heading": "Start with the key ingredients",
+        "paragraphs": [
+          "ZIVASHA’s Gond Laddu lists edible gond, nuts and coconut, with jaggery and khajoor (dates). These are key ingredients, rather than a complete ingredient declaration. The general word “gond” also does not establish the botanical identity of the gum in a particular batch.",
+          "Khapli Laddu lists khapli wheat, nuts, ghee and jaggery. Dates are listed for Gond Laddu; do not assume that the Khapli recipe has the same sweetener combination. Ask for the full product information if a particular ingredient matters."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Khapli is a type of wheat",
+        "paragraphs": [
+          "ICAR–IARI identifies Khapli as emmer wheat. NIDDK’s gluten guidance includes emmer among the types of wheat that naturally contain gluten. Khapli Laddu is therefore not a gluten-free alternative. Its listed allergens include wheat, nuts and milk ingredients.",
+          "Gond Laddu contains nuts. Do not assume it is free from wheat, milk or other allergens because those ingredients are absent from a short product overview; confirm the complete label and relevant preparation information."
+        ],
+        "sourceIds": [
+          "iari",
+          "niddk"
+        ]
+      },
+      {
+        "heading": "Read the sweetener wording carefully",
+        "paragraphs": [
+          "Both ZIVASHA recipes are sweetened with jaggery, with no white sugar added. This describes the sweetener choice, not a sugar-free food. ICMR–NIN includes jaggery among sugars added during food preparation. Avoid using the recipe name alone to infer sugar content or a nutritional advantage."
+        ],
+        "sourceIds": [
+          "nin"
+        ]
+      },
+      {
+        "heading": "Check availability before planning a purchase",
+        "paragraphs": [
+          "Mithai new orders remain closed until after Diwali; the reopening date is unknown. Use the product pages to understand the ingredients while planning ahead.",
+          "For current gifting, dry-fruit-only hamper requests remain subject to stock, packaging and delivery confirmation. Individual requests go through the website; bulk enquiries go to WhatsApp +91 97736 95862. Availability, final taxes, delivery charges and total are confirmed before payment."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "iari",
+        "title": "ICAR–IARI · Nilgiri Wheat News, emmer and Khapli identification, p. 38",
+        "url": "https://www.iari.res.in/files/Publication/Nilgiri_Wheat_News/NWN_11_23082023.pdf#page=39"
+      },
+      {
+        "id": "niddk",
+        "title": "NIH NIDDK · Foods and drinks that contain gluten",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+      },
+      {
+        "id": "nin",
+        "title": "ICMR–NIN · Dietary Guidelines for Indians 2024, added sugars, p. 94",
+        "url": "https://nin.res.in/dietaryguidelines/pdfjs/locale/DGI_2024.pdf#page=111"
+      }
+    ],
+    "relatedPath": "/shop/khapli-laddu/",
+    "relatedLabel": "Read Khapli Laddu ingredients and allergens"
   }
 ]
