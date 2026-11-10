@@ -1140,5 +1140,80 @@
     ],
     "relatedPath": "/shop/khapli-laddu/",
     "relatedLabel": "Read Khapli Laddu ingredients and allergens"
+  },
+  {
+    "slug": "pistachios-dry-fruit-gifts-in-shell-or-kernels",
+    "title": "Pistachios in dry-fruit gifts: in-shell or kernels?",
+    "description": "Choosing a dry-fruit gift with pista? Understand in-shell pistachios, kernels, seasoning and the ingredient details to confirm before requesting a hamper.",
+    "category": "Know your ingredients",
+    "publishedAt": "2026-11-10T13:39:44+05:30",
+    "updatedAt": "2026-11-10T13:39:44+05:30",
+    "author": "ZIVASHA Editorial",
+    "keywords": [
+      "pistachios in dry-fruit gifts",
+      "pista gift hamper",
+      "in-shell pistachios",
+      "pistachio kernels",
+      "dry-fruit hamper ingredients"
+    ],
+    "image": "/products/four-jar-festive-gift.jpg",
+    "imageAlt": "ZIVASHA Four-Jar Festive Gift in its approved presentation box",
+    "imageCaption": "Supplied product photograph with AI-edited background and branding; actual appearance and packaging may vary. The image does not establish the pistachio form, seasoning or batch origin.",
+    "intro": "When choosing pistachios in dry-fruit gifts, the word “pista” is only a starting point. A recipient may expect nuts to open while chatting, or kernels to use straight away. Confirm the form and ingredients before judging a hamper from its photograph.",
+    "takeaway": "Ask whether the pistachios are in-shell or kernels, then confirm roasting, seasoning and the complete allergen information for the actual pack.",
+    "sections": [
+      {
+        "heading": "In-shell pistachios and kernels are different formats",
+        "paragraphs": [
+          "The University of California, Davis describes pistachios as commonly sold both in-shell and shelled. Shelled pistachios are kernels with the hard shell removed. In-shell nuts need opening before eating; kernels remove that step and are also used in cooking and confectionery.",
+          "For a gift, think about how the recipient will use them. Ask for the exact format rather than assuming that every pistachio assortment has the same presentation."
+        ],
+        "sourceIds": [
+          "ucdavis"
+        ]
+      },
+      {
+        "heading": "Confirm roasting and seasoning separately",
+        "paragraphs": [
+          "Shell status does not tell you the full preparation method. UC Davis notes that pistachios are often roasted and salted, while kernels may be sold without roasting or salt. Ask whether the chosen pack is roasted, salted or otherwise seasoned, and read its complete ingredient list.",
+          "These are general market formats, not a specification for ZIVASHA’s current batch."
+        ],
+        "sourceIds": [
+          "ucdavis"
+        ]
+      },
+      {
+        "heading": "Keep the allergy information with the gift",
+        "paragraphs": [
+          "Pistachios are tree nuts and can trigger food allergies. The NSW Food Authority advises checking ingredient information and asking about contamination risks. A decorative box or separate jars do not establish that an assortment is suitable for someone with an allergy.",
+          "Confirm the recipient’s restrictions, request the final pack labels and pass those details on with the gift."
+        ],
+        "sourceIds": [
+          "nsw"
+        ]
+      },
+      {
+        "heading": "Check the actual hamper before ordering",
+        "paragraphs": [
+          "ZIVASHA’s Four-Jar Festive Gift lists almonds, cashews, pistachios and raisins. Confirm the pistachio format and preparation for your order; the product photograph does not settle those details.",
+          "Dry-fruit-only hamper requests remain subject to stock, packaging and delivery confirmation. Submit individual order requests through the website; for bulk enquiries, share the design, quantity, delivery pincode and required date on WhatsApp +91 97736 95862. Availability, final taxes, delivery charges and total are confirmed before payment."
+        ],
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "ucdavis",
+        "title": "UC Davis Postharvest Research and Extension Center · Pistachio",
+        "url": "https://postharvest.ucdavis.edu/produce-facts-sheets/pistachio"
+      },
+      {
+        "id": "nsw",
+        "title": "NSW Food Authority · Tree nuts and food-allergy information",
+        "url": "https://www.foodauthority.nsw.gov.au/consumer/food-allergies/food-allergens/tree-nuts"
+      }
+    ],
+    "relatedPath": "/shop/four-jar-festive-gift/",
+    "relatedLabel": "Explore the Four-Jar Festive Gift contents"
   }
 ]
