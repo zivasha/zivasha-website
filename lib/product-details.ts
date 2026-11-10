@@ -167,17 +167,17 @@ const ingredientFaqs: Record<string, {q: string; a: string}[]> = {
 
 export function productFaqs(p: Product) {
   const answer = p.kind === 'mithai'
-    ? `${site.mithaiOrderNotice} The reopening date is not yet confirmed.`
+    ? `${site.mithaiOrderNotice} Share your selected pack, quantity, delivery pincode and required date. Availability, final taxes, delivery charges and total are confirmed before payment.`
     : p.kind === 'hamper' || p.slug === 'six-tin-gift'
       ? 'Dry-fruit-only hamper enquiries remain open, including last-minute festive requests, subject to stock, packaging availability and delivery confirmation.'
       : 'Please confirm the deadline for your selected nutri-bar or mixed gift order with ZIVASHA. Availability and delivery are confirmed before payment.';
   return [
     ...(ingredientFaqs[p.slug] ?? []),
     ...(['gond-laddu', 'khapli-laddu', 'seven-seeds-nutri-bar', 'nutri-jar'].includes(p.slug) ? [{q: 'What does no white sugar added mean?', a: p.slug === 'khapli-laddu' ? 'Khapli Laddu is sweetened with jaggery, with no white sugar added. Jaggery contributes sugar, so this is not a sugar-free or no-added-sugar product.' : 'This product is sweetened with jaggery and khajoor (dates), with no white sugar added. It still contains sugar and is not a sugar-free product.'}] : []),
-    {q: 'How do I order this product?', a: p.kind === 'mithai' ? `${site.mithaiOrderNotice} The reopening date is not yet confirmed. Contact ZIVASHA for support with an existing order.` : 'Choose your pack and quantity, add it to the cart and submit an order request. ZIVASHA confirms availability, GST, delivery charges and the final total before sending a secure Razorpay payment link.'},
+    {q: 'How do I order this product?', a: p.kind === 'mithai' ? 'Choose your pack and quantity and submit an order request on the website. For bulk enquiries, share the product, quantity, delivery pincode and required date on WhatsApp. We confirm stock, pack availability, delivery date, final taxes, delivery charges and total before payment.' : 'Choose your pack and quantity, add it to the cart and submit an order request. ZIVASHA confirms availability, GST, delivery charges and the final total before sending a secure Razorpay payment link.'},
     {q: 'Can I order in bulk?', a: 'Yes, you can request a bulk quotation. Share the product, number of packs, delivery city or pincode and required date. Bulk requirements and any custom packaging must be confirmed before payment.'},
     {q: 'Where is delivery available?', a: 'Our delivery focus is Delhi NCR. For other locations, ask us to confirm delivery feasibility, charges and the required date before payment.'},
-    {q: 'What is the festive order deadline?', a: answer},
+    {q: p.kind === 'mithai' ? 'Can I enquire about this product now?' : 'What is the festive order deadline?', a: answer},
     {q: 'Where can I check shelf life and storage?', a: 'Check the final product label for storage instructions and best-before information. Ask us to confirm these details before ordering; we do not assume a shelf life for an unconfirmed batch.'},
   ];
 }

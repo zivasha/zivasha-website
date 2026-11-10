@@ -1,4 +1,4 @@
-const mithaiOrderNotice = 'Mithai orders are closed until after Diwali.';
+const mithaiOrderNotice = 'Gond and Khapli Laddu enquiries are welcome, subject to stock, pack and delivery confirmation.';
 const dryFruitOrderNotice = 'Dry-fruit hampers remain open, subject to availability and delivery confirmation.';
 
 export const site = {

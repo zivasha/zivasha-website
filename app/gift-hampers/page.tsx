@@ -4,7 +4,7 @@ import ComingSoonGifts from '@/components/ComingSoonGifts';
 import SeasonNotice from '@/components/SeasonNotice';
 import JsonLd from '@/components/JsonLd';
 import { faqJsonLd, pageOg } from '@/lib/seo';
-import { waBulk } from '@/lib/site';
+import { site, waBulk } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Gift Hampers for Corporate, Festive & Personal Gifting',
@@ -15,7 +15,7 @@ const faqs = [
   { q: 'What types of gift hampers can I explore?', a: 'Our current collection includes dry-fruit hampers in jar, basket, tray and box formats. A broader range of decorative tray sets, keepsake pieces, potlis and pouches is coming soon. Preview designs are not yet open for orders.' },
   { q: 'How do I choose a hamper for my budget?', a: 'For individual purchases, browse the dry-fruit collection and submit an order request on our website. For bulk gifting, share your occasion, preferred design, quantity, budget, delivery pincode and required date on WhatsApp. Availability, final taxes, delivery charges and total are confirmed before payment.' },
   { q: 'Can I enquire about corporate or bulk gifting?', a: 'Yes. Share the number of recipients, delivery locations and any branding requirements. Customisation, minimum quantities, samples, stock and dispatch timing are checked for the selected design before a quotation is confirmed.' },
-  { q: 'Are mithai and the coming-soon gift sets available now?', a: 'Mithai new orders are closed until after Diwali; the reopening date is not confirmed. Dry-fruit-only gift hamper enquiries remain open, subject to stock, packaging and delivery confirmation. Check standalone Nutri Bar and mixed-hamper availability separately. The new decorative gifting range is a preview only.' },
+  { q: 'Are mithai and the coming-soon gift sets available now?', a: `${site.mithaiOrderNotice} Dry-fruit-only gift hamper enquiries remain open, subject to stock, packaging and delivery confirmation. Check standalone Nutri Bar and mixed-hamper availability separately. The new decorative gifting range is a preview only.` },
 ];
 export default function GiftHampers() {
   return <>
